@@ -5,32 +5,44 @@
     {
       "mid": "ielts",
       "tag": "国际视野",
-      "items": ["完成今日雅思精听、跟读与口语输出。"]
+      "items": [
+        "BBC Learning English - 6 Minute English / Why do people buy gold?"
+      ]
     },
     {
       "mid": "gongkao",
       "tag": "政治洞察",
-      "items": ["关注国务院及新华社最新政策与时政信息。"]
+      "items": [
+        "中方：望欧方恪守承诺，避免出台保护主义和歧视性政策措施"
+      ]
     },
     {
       "mid": "law",
       "tag": "法律专业",
-      "items": ["阅读一个司法案例，并提炼争议焦点与裁判理由。"]
+      "items": [
+        "男子登山途中离队坠亡 家属索赔30万 法院判了"
+      ]
     },
     {
       "mid": "finance",
       "tag": "财富管理",
-      "items": ["观察主要市场表现，学习一个投资知识点。"]
-    },
-    {
-      "mid": "sport",
-      "tag": "卓越健康",
-      "items": ["完成约1小时运动，并进行拉伸与护眼。"]
+      "items": [
+        "国铁太原局中欧班列（去程）累计开行1000列"
+      ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
-      "items": ["扫描法务、律所及相关实习岗位，完成至少一次有效行动。"]
+      "items": [
+        "哈萨克斯坦登记机动车超610万辆"
+      ]
+    },
+    {
+      "mid": "sport",
+      "tag": "卓越健康",
+      "items": [
+        "完成今日约1小时运动，并进行拉伸与护眼。"
+      ]
     }
   ],
   "modules": {
@@ -39,28 +51,28 @@
       "tasks": [
         {
           "tid": "ielts_1",
-          "title": "BBC 6 Minute English 精听",
+          "title": "今日 BBC 英语资讯",
           "time": "40 分钟",
           "hint": "听一遍、精听一遍，再记录5个高频表达。",
           "body": [
             {
               "type": "p",
-              "html": "选择 BBC Learning English 最新一期 6 Minute English，完成精听。"
-            },
-            {
-              "type": "ul",
-              "items": [
-                "第一遍：不看字幕理解大意",
-                "第二遍：记录生词和表达",
-                "第三遍：尝试复述核心内容"
-              ]
+              "html": "<b>今日最新资讯</b>"
             },
             {
               "type": "links",
               "items": [
                 {
-                  "text": "→ BBC Learning English",
-                  "href": "https://www.bbc.co.uk/learningenglish"
+                  "text": "→ BBC Learning English - 6 Minute English / Why do people buy gold? · BBC Learning English",
+                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261015"
+                },
+                {
+                  "text": "→ BBC Learning English - 6 Minute English / Are people drinking less alcohol? · BBC Learning English",
+                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261008"
+                },
+                {
+                  "text": "→ BBC Learning English - 6 Minute English / Why does heartbreak hurt so much? · BBC Learning English",
+                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261001"
                 }
               ]
             }
@@ -92,35 +104,33 @@
         }
       ]
     },
-
     "gongkao": {
       "sub": "常识判断 · 行测模块 · 时政一句话",
       "tasks": [
         {
           "tid": "gk_1",
-          "title": "今日时政",
+          "title": "今日时政速览",
           "time": "20 分钟",
           "hint": "浏览国家重要政策与新闻。",
           "body": [
             {
-              "type": "ul",
-              "items": [
-                "国务院最新政策",
-                "新华社重要新闻",
-                "国内重要经济社会事件",
-                "国际重要事件"
-              ]
+              "type": "p",
+              "html": "<b>今日最新资讯</b>"
             },
             {
               "type": "links",
               "items": [
                 {
-                  "text": "→ 中国政府网",
-                  "href": "https://www.gov.cn/"
+                  "text": "→ 中方：望欧方恪守承诺，避免出台保护主义和歧视性政策措施 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/10-16/10715698.shtml"
                 },
                 {
-                  "text": "→ 新华网",
-                  "href": "https://www.news.cn/"
+                  "text": "→ 联合国维和无人机培训班将在西安举办 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/10-16/10715692.shtml"
+                },
+                {
+                  "text": "→ 中塞人文艺术教育研讨会在贝尔格莱德举办 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/10-16/10715681.shtml"
                 }
               ]
             }
@@ -161,30 +171,33 @@
         }
       ]
     },
-
     "law": {
       "sub": "民诉前沿 · 跨领域拓展 · 今日案例",
       "tasks": [
         {
           "tid": "law_1",
-          "title": "今日法律案例",
+          "title": "今日法律资讯",
           "time": "30 分钟",
           "hint": "阅读真实司法案例。",
           "body": [
             {
               "type": "p",
-              "html": "选择最高人民法院或中国法院网公开案例，提炼案件事实、争议焦点和裁判理由。"
+              "html": "<b>今日最新资讯</b>"
             },
             {
               "type": "links",
               "items": [
                 {
-                  "text": "→ 最高人民法院",
-                  "href": "https://www.court.gov.cn/"
+                  "text": "→ 男子登山途中离队坠亡 家属索赔30万 法院判了 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/10-16/10715697.shtml"
                 },
                 {
-                  "text": "→ 中国法院网",
-                  "href": "https://www.chinacourt.org/"
+                  "text": "→ 澳门跨境旅拍的灰色地带 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/10-16/10715640.shtml"
+                },
+                {
+                  "text": "→ 三部门联合发布老年人法律服务典型案例 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/10-16/10715601.shtml"
                 }
               ]
             }
@@ -216,34 +229,33 @@
         }
       ]
     },
-
     "finance": {
       "sub": "知识点 · 市场速览 · 实操任务",
       "tasks": [
         {
           "tid": "fin_1",
-          "title": "财经新闻速览",
+          "title": "今日财经速览",
           "time": "20 分钟",
           "hint": "了解当天重要财经信息。",
           "body": [
             {
               "type": "p",
-              "html": "关注宏观经济、货币政策、资本市场和重要公司动态。"
+              "html": "<b>今日最新资讯</b>"
             },
             {
               "type": "links",
               "items": [
                 {
-                  "text": "→ 中国人民银行",
-                  "href": "https://www.pbc.gov.cn/"
+                  "text": "→ 国铁太原局中欧班列（去程）累计开行1000列 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/10-16/10715683.shtml"
                 },
                 {
-                  "text": "→ 上海证券交易所",
-                  "href": "https://www.sse.com.cn/"
+                  "text": "→ 机器人、AI交互设备成广交会焦点 受海内外客商青睐 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/10-16/10715679.shtml"
                 },
                 {
-                  "text": "→ 深圳证券交易所",
-                  "href": "https://www.szse.cn/"
+                  "text": "→ 首届“AI+医疗”技术创新大赛新闻发布会在京举办 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/10-16/10715684.shtml"
                 }
               ]
             }
@@ -279,7 +291,6 @@
         }
       ]
     },
-
     "sport": {
       "sub": "帕梅拉 · 瘦背芭杆 · 护眼 · 身材管理",
       "tasks": [
@@ -330,30 +341,33 @@
         }
       ]
     },
-
     "intern": {
       "sub": "法务精选 · 律所精选 · 重点关注",
       "tasks": [
         {
           "tid": "in_1",
-          "title": "实习岗位扫描",
+          "title": "今日职业环境速览",
           "time": "20 分钟",
           "hint": "查看法务、律所和相关岗位。",
           "body": [
             {
               "type": "p",
-              "html": "重点关注企业法务、律所、合规、涉外法律等方向。"
+              "html": "<b>今日最新资讯</b>"
             },
             {
               "type": "links",
               "items": [
                 {
-                  "text": "→ 国聘",
-                  "href": "https://www.iguopin.com/"
+                  "text": "→ 哈萨克斯坦登记机动车超610万辆 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/10-16/10715620.shtml"
                 },
                 {
-                  "text": "→ 实习僧",
-                  "href": "https://www.shixiseng.com/"
+                  "text": "→ 加拿大卡尔加里多车相撞起火致3死19伤 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/10-16/10715604.shtml"
+                },
+                {
+                  "text": "→ 美媒：巴西总统卢拉指责Meta偏袒其竞选对手 自身内容遭限流 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/10-16/10715570.shtml"
                 }
               ]
             }
@@ -367,11 +381,27 @@
           "body": [
             {
               "type": "table",
-              "head": ["方向", "关注重点", "行动"],
+              "head": [
+                "方向",
+                "关注重点",
+                "行动"
+              ],
               "rows": [
-                ["企业法务", "央国企 / 外企 / 大厂", "查看招聘要求"],
-                ["律所", "商事 / 涉外 / 争议解决", "查看实习要求"],
-                ["合规", "数据 / 风控 / 公司治理", "记录能力要求"]
+                [
+                  "企业法务",
+                  "央国企 / 外企 / 大厂",
+                  "查看招聘要求"
+                ],
+                [
+                  "律所",
+                  "商事 / 涉外 / 争议解决",
+                  "查看实习要求"
+                ],
+                [
+                  "合规",
+                  "数据 / 风控 / 公司治理",
+                  "记录能力要求"
+                ]
               ]
             }
           ]
