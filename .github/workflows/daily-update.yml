@@ -1,0 +1,222 @@
+name: Bright Future Daily Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 23 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update daily.json
+        shell: bash
+        run: |
+          python3 <<'PY'
+          import json
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from datetime import datetime, timezone, timedelta
+
+          BJ = timezone(timedelta(hours=8))
+          today = datetime.now(BJ).strftime("%Y-%m-%d")
+
+          feeds = {
+              "ielts": [
+                  ("BBC Learning English",
+                   "https://feeds.bbci.co.uk/learningenglish/english/features/6-minute-english/rss")
+              ],
+              "politics": [
+                  ("中国新闻网·时政",
+                   "https://www.chinanews.com.cn/rss/china.xml")
+              ],
+              "law": [
+                  ("中国新闻网·法治",
+                   "https://www.chinanews.com.cn/rss/fz.xml")
+              ],
+              "finance": [
+                  ("中国新闻网·财经",
+                   "https://www.chinanews.com.cn/rss/finance.xml")
+              ],
+              "world": [
+                  ("中国新闻网·国际",
+                   "https://www.chinanews.com.cn/rss/world.xml")
+              ]
+          }
+
+          def fetch_feed(url):
+              try:
+                  req = urllib.request.Request(
+                      url,
+                      headers={"User-Agent": "BrightFuture/1.0"}
+                  )
+
+                  with urllib.request.urlopen(req, timeout=20) as r:
+                      data = r.read()
+
+                  root = ET.fromstring(data)
+                  result = []
+
+                  for item in root.findall(".//item")[:5]:
+                      title = item.findtext("title") or ""
+                      link = item.findtext("link") or ""
+
+                      if title and link:
+                          result.append({
+                              "title": " ".join(title.split()),
+                              "link": link
+                          })
+
+                  return result
+
+              except Exception as e:
+                  print("Feed error:", e)
+                  return []
+
+          fresh = {}
+
+          for key, sources in feeds.items():
+              items = []
+
+              for source_name, url in sources:
+                  for item in fetch_feed(url):
+                      item["source"] = source_name
+                      items.append(item)
+
+              fresh[key] = items[:5]
+
+          path = "daily.json"
+
+          with open(path, "r", encoding="utf-8") as f:
+              data = json.load(f)
+
+          data["date"] = today
+
+          mapping = {
+              "ielts": ("国际视野", "ielts"),
+              "gongkao": ("政治洞察", "politics"),
+              "law": ("法律专业", "law"),
+              "finance": ("财富管理", "finance"),
+              "intern": ("职业成长", "world")
+          }
+
+          brief = []
+
+          for mid, (tag, key) in mapping.items():
+              items = fresh.get(key, [])
+
+              if items:
+                  text = items[0]["title"]
+              else:
+                  text = "今日暂无自动抓取资讯，请进入官方来源查看最新内容。"
+
+              brief.append({
+                  "mid": mid,
+                  "tag": tag,
+                  "items": [text]
+              })
+
+          brief.append({
+              "mid": "sport",
+              "tag": "卓越健康",
+              "items": ["完成今日约1小时运动，并进行拉伸与护眼。"]
+          })
+
+          data["brief"] = brief
+
+          def news_body(items, fallback):
+              if not items:
+                  return [
+                      {
+                          "type": "note",
+                          "html": "今日暂无自动抓取资讯，请点击官方来源查看。"
+                      },
+                      {
+                          "type": "links",
+                          "items": [
+                              {
+                                  "text": "→ 官方来源",
+                                  "href": fallback
+                              }
+                          ]
+                      }
+                  ]
+
+              return [
+                  {
+                      "type": "p",
+                      "html": "<b>今日最新资讯</b>"
+                  },
+                  {
+                      "type": "links",
+                      "items": [
+                          {
+                              "text": "→ " + x["title"] + " · " + x["source"],
+                              "href": x["link"]
+                          }
+                          for x in items[:3]
+                      ]
+                  }
+              ]
+
+          if data.get("modules", {}).get("ielts", {}).get("tasks"):
+              data["modules"]["ielts"]["tasks"][0]["title"] = "今日 BBC 英语资讯"
+              data["modules"]["ielts"]["tasks"][0]["body"] = news_body(
+                  fresh["ielts"],
+                  "https://www.bbc.co.uk/learningenglish"
+              )
+
+          if data.get("modules", {}).get("gongkao", {}).get("tasks"):
+              data["modules"]["gongkao"]["tasks"][0]["title"] = "今日时政速览"
+              data["modules"]["gongkao"]["tasks"][0]["body"] = news_body(
+                  fresh["politics"],
+                  "https://www.gov.cn/"
+              )
+
+          if data.get("modules", {}).get("law", {}).get("tasks"):
+              data["modules"]["law"]["tasks"][0]["title"] = "今日法律资讯"
+              data["modules"]["law"]["tasks"][0]["body"] = news_body(
+                  fresh["law"],
+                  "https://www.court.gov.cn/"
+              )
+
+          if data.get("modules", {}).get("finance", {}).get("tasks"):
+              data["modules"]["finance"]["tasks"][0]["title"] = "今日财经速览"
+              data["modules"]["finance"]["tasks"][0]["body"] = news_body(
+                  fresh["finance"],
+                  "https://www.pbc.gov.cn/"
+              )
+
+          if data.get("modules", {}).get("intern", {}).get("tasks"):
+              data["modules"]["intern"]["tasks"][0]["title"] = "今日职业环境速览"
+              data["modules"]["intern"]["tasks"][0]["body"] = news_body(
+                  fresh["world"],
+                  "https://www.iguopin.com/"
+              )
+
+          with open(path, "w", encoding="utf-8") as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+
+          print("Bright Future updated:", today)
+          PY
+
+      - name: Commit updated daily.json
+        run: |
+          git config user.name "Bright Future Bot"
+          git config user.email "brightfuture-bot@users.noreply.github.com"
+
+          git add daily.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update daily workbench"
+            git push
+          fi
