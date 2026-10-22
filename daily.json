@@ -1,40 +1,40 @@
 {
   "v": 2,
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "brief": [
     {
       "mid": "ielts",
       "tag": "国际视野",
       "items": [
-        "BBC Learning English - 6 Minute English / Why do people buy gold?"
+        "BBC Learning English - 6 Minute English / What should you eat for a better night’s sleep?"
       ]
     },
     {
       "mid": "gongkao",
       "tag": "政治洞察",
       "items": [
-        "第四届海洋负排放开放科学大会厦门举行 推进全球气候治理行动"
+        "西藏那曲市巴青县发生7.0级地震，震源深度10千米"
       ]
     },
     {
       "mid": "law",
       "tag": "法律专业",
       "items": [
-        "北京金融法院：涉境外消费及劳务输出纠纷呈增长态势"
+        "检察机关依法分别对邓军民、龙献忠、王会雨、索曙辉提起公诉"
       ]
     },
     {
       "mid": "finance",
       "tag": "财富管理",
       "items": [
-        "2026金融街论坛年会金融科技大会在京举办"
+        "全球超八成新船订单涌向中国"
       ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
       "items": [
-        "美国宣布制裁与伊朗相关的多家外国实体"
+        "日本爱知县一大型货机着陆时疑似起火"
       ]
     },
     {
@@ -63,16 +63,16 @@
               "type": "links",
               "items": [
                 {
+                  "text": "→ BBC Learning English - 6 Minute English / What should you eat for a better night’s sleep? · BBC Learning English",
+                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261022"
+                },
+                {
                   "text": "→ BBC Learning English - 6 Minute English / Why do people buy gold? · BBC Learning English",
                   "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261015"
                 },
                 {
                   "text": "→ BBC Learning English - 6 Minute English / Are people drinking less alcohol? · BBC Learning English",
                   "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261008"
-                },
-                {
-                  "text": "→ BBC Learning English - 6 Minute English / Why does heartbreak hurt so much? · BBC Learning English",
-                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261001"
                 }
               ]
             }
@@ -121,16 +121,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 第四届海洋负排放开放科学大会厦门举行 推进全球气候治理行动 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/10-21/10718801.shtml"
+                  "text": "→ 西藏那曲市巴青县发生7.0级地震，震源深度10千米 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/10-22/10719432.shtml"
                 },
                 {
-                  "text": "→ 台青周代祥南宁别样创业：从“玩泥巴”到“玩AI” · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/10-21/10718804.shtml"
+                  "text": "→ 西藏那曲市巴青县附近发生6.7级左右地震 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/10-22/10719430.shtml"
                 },
                 {
-                  "text": "→ 多位司法行政一线代表共话平安中国、法治中国建设 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/10-21/10718805.shtml"
+                  "text": "→ 全国台企联西南西北区第六十届会长联谊会在广西玉林举行 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/10-22/10719426.shtml"
                 }
               ]
             }
@@ -188,16 +188,16 @@
               "type": "links",
               "items": [
                 {
+                  "text": "→ 检察机关依法分别对邓军民、龙献忠、王会雨、索曙辉提起公诉 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/10-22/10719133.shtml"
+                },
+                {
+                  "text": "→ 警惕！这些APP涉诈情况突出 名单公布 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/10-22/10718991.shtml"
+                },
+                {
                   "text": "→ 北京金融法院：涉境外消费及劳务输出纠纷呈增长态势 · 中国新闻网·法治",
                   "href": "https://www.chinanews.com.cn/fz/2026/10-21/10718529.shtml"
-                },
-                {
-                  "text": "→ 分工演戏、索要高额赔偿！警方打掉企业“碰瓷式”涉恶团伙 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/10-21/10718479.shtml"
-                },
-                {
-                  "text": "→ 买得多≠消费者 “进货式网购”不适用退一赔三 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/10-21/10718457.shtml"
                 }
               ]
             }
@@ -246,16 +246,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 2026金融街论坛年会金融科技大会在京举办 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/10-21/10718797.shtml"
+                  "text": "→ 全球超八成新船订单涌向中国 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/10-23/10719464.shtml"
                 },
                 {
-                  "text": "→ 四川搭建欧资企业政企沟通平台 以对话回应关切 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/10-21/10718798.shtml"
+                  "text": "→ 2026中国·安平国际丝网博览会开幕 海外客商点赞“数字智造” · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/10-22/10719427.shtml"
                 },
                 {
-                  "text": "→ 桂台经贸融合发展与玉林产业发展对接会在广西玉林举行 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/10-21/10718800.shtml"
+                  "text": "→ 2026中国海洋经济博览会开幕 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/10-22/10719422.shtml"
                 }
               ]
             }
@@ -358,16 +358,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 美国宣布制裁与伊朗相关的多家外国实体 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/10-22/10718825.shtml"
+                  "text": "→ 日本爱知县一大型货机着陆时疑似起火 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/10-23/10719462.shtml"
                 },
                 {
-                  "text": "→ 乌克兰首都基辅遭弹道导弹袭击 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/10-22/10718824.shtml"
+                  "text": "→ 法国总统马克龙称未来数日将禁止非法抗议活动 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/10-23/10719460.shtml"
                 },
                 {
-                  "text": "→ 从奥斯陆到圣彼得堡 美特使密集斡旋 美俄乌三方会谈酝酿重启 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/10-22/10718822.shtml"
+                  "text": "→ 普京：俄方已通知美国，准备恢复乌克兰问题三边谈判 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/10-23/10719459.shtml"
                 }
               ]
             }
