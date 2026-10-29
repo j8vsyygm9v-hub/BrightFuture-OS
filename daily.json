@@ -1,40 +1,40 @@
 {
   "v": 2,
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "brief": [
     {
       "mid": "ielts",
       "tag": "国际视野",
       "items": [
-        "BBC Learning English - 6 Minute English / What should you eat for a better night’s sleep?"
+        "BBC Learning English - 6 Minute English / Is aircon the answer to a heating world?"
       ]
     },
     {
       "mid": "gongkao",
       "tag": "政治洞察",
       "items": [
-        "又有8位已迎回在韩志愿军烈士确认身份！为烈士寻亲，如何寻？难在哪？怎么解？"
+        "“十五五”时期我国将全面提升农产品品质"
       ]
     },
     {
       "mid": "law",
       "tag": "法律专业",
       "items": [
-        "“视频面试”却被下单名酒等贵重物品 警方揭秘新型求职诈骗"
+        "吸一口就“上头” 警惕非法“上头电子烟”"
       ]
     },
     {
       "mid": "finance",
       "tag": "财富管理",
       "items": [
-        "2.5亿人次已受益 多地以旧换新上新 最高补贴2000元"
+        "2026年中国贵金属论坛在昆明举行 AI与贵金属“双向奔赴”成焦点"
       ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
       "items": [
-        "伊朗官员：退出《不扩散核武器条约》计划已准备就绪"
+        "西班牙高铁事故首份报告公布"
       ]
     },
     {
@@ -63,16 +63,16 @@
               "type": "links",
               "items": [
                 {
+                  "text": "→ BBC Learning English - 6 Minute English / Is aircon the answer to a heating world? · BBC Learning English",
+                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261029"
+                },
+                {
                   "text": "→ BBC Learning English - 6 Minute English / What should you eat for a better night’s sleep? · BBC Learning English",
                   "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261022"
                 },
                 {
                   "text": "→ BBC Learning English - 6 Minute English / Why do people buy gold? · BBC Learning English",
                   "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261015"
-                },
-                {
-                  "text": "→ BBC Learning English - 6 Minute English / Are people drinking less alcohol? · BBC Learning English",
-                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261008"
                 }
               ]
             }
@@ -121,16 +121,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 又有8位已迎回在韩志愿军烈士确认身份！为烈士寻亲，如何寻？难在哪？怎么解？ · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/10-28/10722485.shtml"
+                  "text": "→ “十五五”时期我国将全面提升农产品品质 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/10-30/10723085.shtml"
                 },
                 {
-                  "text": "→ 云南立法保护铁路安全 纳入跨境协作内容 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/10-28/10722477.shtml"
+                  "text": "→ 2023年以来江西法院共办理司法救助案件1.1万余件 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/10-29/10723080.shtml"
                 },
                 {
-                  "text": "→ 广西多点发力 加快完善生育支持政策体系 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/10-28/10722473.shtml"
+                  "text": "→ “中国蓝色海湾整治行动”获评2026年联合国“世界生态恢复旗舰项目” · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/10-29/10723076.shtml"
                 }
               ]
             }
@@ -188,16 +188,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ “视频面试”却被下单名酒等贵重物品 警方揭秘新型求职诈骗 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/10-28/10722276.shtml"
+                  "text": "→ 吸一口就“上头” 警惕非法“上头电子烟” · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/10-29/10722702.shtml"
                 },
                 {
-                  "text": "→ 又拍车牌又自拍 网约车司机果断报警拦下刷单骗局 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/10-28/10722179.shtml"
+                  "text": "→ 钓中“标鱼”最高奖金3500元 是娱乐还是赌博？ · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/10-29/10722674.shtml"
                 },
                 {
-                  "text": "→ 改名“搬运”AI微短剧是否构成侵权？ · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/10-28/10722016.shtml"
+                  "text": "→ U币“交易”中夺款逃走，涉嫌何罪？ · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/10-29/10722598.shtml"
                 }
               ]
             }
@@ -246,16 +246,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 2.5亿人次已受益 多地以旧换新上新 最高补贴2000元 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/10-29/10722496.shtml"
+                  "text": "→ 2026年中国贵金属论坛在昆明举行 AI与贵金属“双向奔赴”成焦点 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/10-29/10723082.shtml"
                 },
                 {
-                  "text": "→ 美联储宣布维持联邦基金利率不变 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/10-29/10722495.shtml"
+                  "text": "→ 广西加快打造国内国际双循环市场经营便利地 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/10-29/10723079.shtml"
                 },
                 {
-                  "text": "→ 美联储宣布维持利率不变 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/10-29/10722489.shtml"
+                  "text": "→ “北京太古坊”正式启用，为太古地产在中国内地单体投资额最高项目 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/10-29/10723071.shtml"
                 }
               ]
             }
@@ -358,16 +358,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 伊朗官员：退出《不扩散核武器条约》计划已准备就绪 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/10-29/10722502.shtml"
+                  "text": "→ 西班牙高铁事故首份报告公布 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/10-30/10723086.shtml"
                 },
                 {
-                  "text": "→ 西班牙高铁相撞致68死 调度录音曝光还原事发经过 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/10-29/10722499.shtml"
+                  "text": "→ 乌克兰基辅遭弹道导弹袭击 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/10-30/10723084.shtml"
                 },
                 {
-                  "text": "→ 西班牙列车相撞已致68人死亡，首相宣布全国哀悼三天 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/10-29/10722498.shtml"
+                  "text": "→ 美军中央司令部司令向特朗普汇报对伊朗军事选项 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/10-30/10723083.shtml"
                 }
               ]
             }
