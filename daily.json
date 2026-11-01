@@ -1,6 +1,6 @@
 {
   "v": 2,
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "brief": [
     {
       "mid": "ielts",
@@ -13,28 +13,28 @@
       "mid": "gongkao",
       "tag": "政治洞察",
       "items": [
-        "中国海警位中国台湾岛以东海域依法开展常态化执法巡查"
+        "中欧班列沿线国家代表在敦煌共话丝路交融与当代合作"
       ]
     },
     {
       "mid": "law",
       "tag": "法律专业",
       "items": [
-        "“黑飞”侵入军机起降航线被罚 国家安全部披露细节"
+        "租的是手机拿到的是现金 起底“租机套现”有哪些风险"
       ]
     },
     {
       "mid": "finance",
       "tag": "财富管理",
       "items": [
-        "广交会观察：彰显时尚价值 中国非遗潮品走俏海外市场"
+        "“欧佩克+”主要产油国决定12月维持产量不变"
       ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
       "items": [
-        "二十国集团外长会未就地缘和经济安全问题达成共识"
+        "外媒：特朗普与内塔尼亚胡就美伊谈判进行通话"
       ]
     },
     {
@@ -121,16 +121,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 中国海警位中国台湾岛以东海域依法开展常态化执法巡查 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/10-31/10724111.shtml"
+                  "text": "→ 中欧班列沿线国家代表在敦煌共话丝路交融与当代合作 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-01/10724511.shtml"
                 },
                 {
-                  "text": "→ 景德镇等中外五座城市获全球可持续发展城市奖（上海奖） · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/10-31/10724108.shtml"
+                  "text": "→ 考古学家：史前治水是长江文明鲜明特征 彰显先民生存智慧 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-01/10724503.shtml"
                 },
                 {
-                  "text": "→ 中瑞创新战略伙伴关系建立10周年 将推动科技创新务实合作 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/10-31/10724100.shtml"
+                  "text": "→ 海内外专家聚首“妈祖故里”谈妈祖文化减灾智慧 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-01/10724501.shtml"
                 }
               ]
             }
@@ -188,16 +188,16 @@
               "type": "links",
               "items": [
                 {
+                  "text": "→ 租的是手机拿到的是现金 起底“租机套现”有哪些风险 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-01/10724235.shtml"
+                },
+                {
+                  "text": "→ 一地叫停网约车“只送货不载人”，“四轮小件”业务真的合规吗？ · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-01/10724223.shtml"
+                },
+                {
                   "text": "→ “黑飞”侵入军机起降航线被罚 国家安全部披露细节 · 中国新闻网·法治",
                   "href": "https://www.chinanews.com.cn/fz/2026/10-31/10723901.shtml"
-                },
-                {
-                  "text": "→ 涉及重要网络系统和数据安全 3起典型案例公布 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/10-31/10723765.shtml"
-                },
-                {
-                  "text": "→ 揭开“债务重组”“征信洗白”的画皮 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/10-30/10723542.shtml"
                 }
               ]
             }
@@ -246,16 +246,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 广交会观察：彰显时尚价值 中国非遗潮品走俏海外市场 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/10-31/10724109.shtml"
+                  "text": "→ “欧佩克+”主要产油国决定12月维持产量不变 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-02/10724524.shtml"
                 },
                 {
-                  "text": "→ 国际金价跌回一年前，发生了什么？ · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/10-31/10724098.shtml"
+                  "text": "→ 厦门首条邮轮无目的地海上游航线启航 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-01/10724517.shtml"
                 },
                 {
-                  "text": "→ 湖南株洲以“市+集+秀”激活时尚消费新生态 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/10-31/10724087.shtml"
+                  "text": "→ “理财产品要变相保本了”是误读政策 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-01/10724506.shtml"
                 }
               ]
             }
@@ -358,16 +358,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 二十国集团外长会未就地缘和经济安全问题达成共识 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-01/10724125.shtml"
+                  "text": "→ 外媒：特朗普与内塔尼亚胡就美伊谈判进行通话 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-02/10724530.shtml"
                 },
                 {
-                  "text": "→ 泰国着手制定第四个国家旅游发展计划 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/10-31/10724123.shtml"
+                  "text": "→ 俄安全部门调查莫斯科恐袭情报期间逮捕一名未成年人 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-02/10724526.shtml"
                 },
                 {
-                  "text": "→ 伊朗外长：目前没有与美国官员会面的计划 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/10-31/10724122.shtml"
+                  "text": "→ 美国佛州一飞机坠毁并爆炸 机上9人全部遇难 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-02/10724528.shtml"
                 }
               ]
             }
