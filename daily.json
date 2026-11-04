@@ -1,3 +1,4 @@
+
 {
   "v": 2,
   "date": "2026-11-04",
@@ -6,198 +7,290 @@
       "mid": "ielts",
       "tag": "国际视野",
       "items": [
-        "BBC Learning English - 6 Minute English / Is aircon the answer to a heating world?"
+        "雅思听力精听与口语跟读",
+        "阅读长难句与写作论证训练"
       ]
     },
     {
       "mid": "gongkao",
       "tag": "政治洞察",
       "items": [
-        "宁夏出台安全生产执法检查重点事项指导目录 规范精准执法"
+        "每日5道行测题及解析",
+        "时政政策与申论素材积累"
       ]
     },
     {
       "mid": "law",
       "tag": "法律专业",
       "items": [
-        "莫名收到大量退费投诉 背后暗藏蹊跷"
+        "民事诉讼法重点问题研究",
+        "典型案例与司法裁判思路"
       ]
     },
     {
       "mid": "finance",
       "tag": "财富管理",
       "items": [
-        "全国放心消费平台正式上线 面向消费者提供哪些功能？"
+        "财经信息与宏观经济观察",
+        "指数基金、资产配置与风险管理"
       ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
       "items": [
-        "欧洲多架客机及一艘邮轮遭炸弹威胁"
+        "法务、律所、央国企及外企岗位",
+        "简历优化与求职能力积累"
       ]
     },
     {
       "mid": "sport",
       "tag": "卓越健康",
       "items": [
-        "完成今日约1小时运动，并进行拉伸与护眼。"
+        "有氧、力量与体态训练",
+        "肩背、核心及日常护眼"
       ]
     }
   ],
   "modules": {
     "ielts": {
-      "sub": "听力精练 · 口语输出 · 词块记忆",
+      "sub": "Listening · Speaking · Reading · Writing",
       "tasks": [
         {
           "tid": "ielts_1",
-          "title": "今日 BBC 英语资讯",
-          "time": "40 分钟",
-          "hint": "听一遍、精听一遍，再记录5个高频表达。",
+          "title": "听力精练：BBC 6 Minute English",
+          "time": "25分钟",
+          "hint": "先盲听，再看文本，最后复听。",
           "body": [
             {
               "type": "p",
-              "html": "<b>今日最新资讯</b>"
+              "html": "训练目标：听懂英语自然语速，识别关键词、连读和弱读。"
             },
             {
               "type": "links",
               "items": [
                 {
-                  "text": "→ BBC Learning English - 6 Minute English / Is aircon the answer to a heating world? · BBC Learning English",
-                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261029"
+                  "text": "BBC Learning English · 6 Minute English",
+                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
                 },
                 {
-                  "text": "→ BBC Learning English - 6 Minute English / What should you eat for a better night’s sleep? · BBC Learning English",
-                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261022"
-                },
-                {
-                  "text": "→ BBC Learning English - 6 Minute English / Why do people buy gold? · BBC Learning English",
-                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261015"
+                  "text": "British Council · IELTS Listening",
+                  "href": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening"
                 }
+              ]
+            },
+            {
+              "type": "ul",
+              "items": [
+                "第一遍：不看文本，记录听到的主题和关键词。",
+                "第二遍：结合文本，找出没听懂的句子。",
+                "第三遍：关闭文本复听，确认理解。",
+                "摘录5个实用词块，记录英文、中文和例句。"
               ]
             }
           ]
         },
         {
           "tid": "ielts_2",
-          "title": "影子跟读",
-          "time": "10 分钟",
-          "hint": "选择60—90秒材料进行跟读。",
+          "title": "口语训练：Part 2",
+          "time": "20分钟",
+          "hint": "完成一段1—2分钟的英文表达。",
           "body": [
             {
               "type": "p",
-              "html": "选择今天精听材料中的一段，进行3遍 shadowing，模仿语音、节奏和连读。"
+              "html": "<b>Today's topic: Describe a skill you would like to learn.</b>"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "What the skill is",
+                "When you first became interested in it",
+                "How you would learn it",
+                "Why you want to learn it"
+              ]
+            },
+            {
+              "type": "p",
+              "html": "表达要求：先准备1分钟，再连续表达1—2分钟。尽量使用具体例子，而不是只罗列观点。"
+            },
+            {
+              "type": "note",
+              "html": "可使用表达：I've always been interested in... / One of the main reasons is that... / It would enable me to..."
             }
           ]
         },
         {
           "tid": "ielts_3",
-          "title": "雅思口语输出",
-          "time": "10 分钟",
-          "hint": "用今天学到的表达完成1分钟口述。",
+          "title": "阅读与写作训练",
+          "time": "15分钟",
+          "hint": "分析长难句，并完成一段议论文。",
           "body": [
             {
               "type": "p",
-              "html": "任选一个雅思口语话题，使用今天至少3个新表达完成1分钟英文回答。"
+              "html": "<b>Writing Task 2 topic</b>"
+            },
+            {
+              "type": "p",
+              "html": "Some people believe that university students should study subjects that are useful for their future careers, while others think they should study whatever interests them. Discuss both views and give your opinion."
+            },
+            {
+              "type": "ul",
+              "items": [
+                "分析题目中的双方观点。",
+                "分别列出两个观点的理由。",
+                "写出自己的立场。",
+                "尝试写一个完整的主体段，包含观点、解释和例子。"
+              ]
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "text": "IELTS 官方备考资源",
+                  "href": "https://ielts.org/take-a-test/preparation-resources"
+                }
+              ]
             }
           ]
         }
       ]
     },
     "gongkao": {
-      "sub": "常识判断 · 行测模块 · 时政一句话",
+      "sub": "常识判断 · 行测练习 · 申论积累",
       "tasks": [
         {
           "tid": "gk_1",
-          "title": "今日时政速览",
-          "time": "20 分钟",
-          "hint": "浏览国家重要政策与新闻。",
+          "title": "每日5道行测题",
+          "time": "20分钟",
+          "hint": "先独立作答，再核对答案。",
           "body": [
             {
               "type": "p",
-              "html": "<b>今日最新资讯</b>"
+              "html": "<b>第1题｜法律常识</b><br/>根据《中华人民共和国民法典》，下列关于诉讼时效的说法，正确的是：<br/>A. 普通诉讼时效期间为一年<br/>B. 普通诉讼时效期间为三年<br/>C. 所有请求权均适用诉讼时效<br/>D. 诉讼时效期间不得中止"
             },
             {
-              "type": "links",
-              "items": [
-                {
-                  "text": "→ 宁夏出台安全生产执法检查重点事项指导目录 规范精准执法 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-03/10725689.shtml"
-                },
-                {
-                  "text": "→ 世界市长在宁波对话：常来常往 融通共生 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-03/10725687.shtml"
-                },
-                {
-                  "text": "→ 疏解央企首票出口货物从雄安综保区发运 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-03/10725681.shtml"
-                }
-              ]
+              "type": "p",
+              "html": "<b>第2题｜政治常识</b><br/>我国国家机构实行的根本组织原则是：<br/>A. 三权分立<br/>B. 民主集中制<br/>C. 联邦制<br/>D. 地方自治"
+            },
+            {
+              "type": "p",
+              "html": "<b>第3题｜经济常识</b><br/>在其他条件不变的情况下，中央银行提高存款准备金率通常会：<br/>A. 增加银行可贷资金<br/>B. 收紧银行体系流动性<br/>C. 直接降低企业税负<br/>D. 增加财政支出"
+            },
+            {
+              "type": "p",
+              "html": "<b>第4题｜逻辑判断</b><br/>所有A都是B，有些B是C。由此可以必然推出：<br/>A. 所有A都是C<br/>B. 有些A是C<br/>C. 有些C是B<br/>D. 所有C都是B"
+            },
+            {
+              "type": "p",
+              "html": "<b>第5题｜言语理解</b><br/>“制度的生命力在于执行。”这句话主要强调：<br/>A. 制度设计不重要<br/>B. 制度落实的重要性<br/>C. 制度可以随意变更<br/>D. 制度只需制定即可"
+            },
+            {
+              "type": "note",
+              "html": "<b>参考答案与解析</b><br/>1.B：《民法典》规定普通诉讼时效期间为三年。<br/>2.B：我国国家机构实行民主集中制原则。<br/>3.B：提高存款准备金率通常会减少银行可用于放贷的资金。<br/>4.C：有些B是C，可以推出有些C是B。<br/>5.B：强调制度制定之后还必须有效落实。"
             }
           ]
         },
         {
           "tid": "gk_2",
-          "title": "行测10道题",
-          "time": "20 分钟",
-          "hint": "完成10道常识/行测题并整理错题。",
+          "title": "时政与政策积累",
+          "time": "15分钟",
+          "hint": "关注国家政策、政府工作和重要会议。",
           "body": [
             {
               "type": "p",
-              "html": "今天必须完成10道题。错题记录：考点 + 错因 + 正确思路。"
+              "html": "重点关注：高质量发展、科技创新、扩大内需、基层治理、乡村全面振兴、民生保障、绿色发展。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "阅读一篇权威政策或新闻报道。",
+                "提炼政策背景和核心举措。",
+                "记录一个可用于申论的政策表达。",
+                "思考政策解决了什么实际问题。"
+              ]
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "text": "中国政府网 · 政策文件",
+                  "href": "https://www.gov.cn/zhengce/"
+                },
+                {
+                  "text": "新华社 · 时政新闻",
+                  "href": "https://www.news.cn/"
+                },
+                {
+                  "text": "中国政府网 · 政府工作报告",
+                  "href": "https://www.gov.cn/"
+                }
+              ]
             }
           ]
         },
         {
           "tid": "gk_3",
           "title": "申论素材积累",
-          "time": "20 分钟",
-          "hint": "积累政策表达、数据和案例。",
+          "time": "15分钟",
+          "hint": "建立自己的政策表达和案例素材库。",
           "body": [
             {
               "type": "p",
-              "html": "今天记录1条政策表达、1组数据和1个真实案例。"
+              "html": "<b>今日主题：基层治理现代化</b>"
             },
             {
-              "type": "links",
+              "type": "ul",
               "items": [
-                {
-                  "text": "→ 中国政府网政策",
-                  "href": "https://www.gov.cn/zhengce/"
-                }
+                "问题：基层治理中可能存在部门协同不足、信息壁垒和服务响应不及时等问题。",
+                "对策：推动部门协同、数字赋能、资源下沉和群众参与。",
+                "表达：坚持问题导向，完善协同治理机制，推动治理资源向基层延伸。",
+                "思考：如何兼顾治理效率与群众实际感受？"
               ]
+            },
+            {
+              "type": "note",
+              "html": "以上为申论训练素材框架，不是特定政策文件的原文或真实统计数据。引用具体政策和数据时，应回到官方文件核验。"
             }
           ]
         }
       ]
     },
     "law": {
-      "sub": "民诉前沿 · 跨领域拓展 · 今日案例",
+      "sub": "民诉法研究 · 典型案例 · 法学前沿",
       "tasks": [
         {
           "tid": "law_1",
-          "title": "今日法律资讯",
-          "time": "30 分钟",
-          "hint": "阅读真实司法案例。",
+          "title": "民诉法专题：证明责任",
+          "time": "25分钟",
+          "hint": "理解证明责任分配及其裁判意义。",
           "body": [
             {
               "type": "p",
-              "html": "<b>今日最新资讯</b>"
+              "html": "<b>核心问题</b><br/>在民事诉讼中，为什么不能简单地要求一方当事人证明所有事实？"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "证明责任是指待证事实真伪不明时，由哪一方承担不利后果。",
+                "一般规则：主张法律关系存在的一方，应当对产生该法律关系的基本事实承担证明责任。",
+                "主张法律关系变更、消灭或者权利受到妨害的一方，应当对相应基本事实承担证明责任。",
+                "特殊情形下，法律和司法解释可能对证明责任作出特别规定。"
+              ]
+            },
+            {
+              "type": "p",
+              "html": "<b>思考题：</b>证明责任分配与举证责任倒置有什么区别？证明标准与证明责任又有什么区别？"
             },
             {
               "type": "links",
               "items": [
                 {
-                  "text": "→ 莫名收到大量退费投诉 背后暗藏蹊跷 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-03/10725351.shtml"
+                  "text": "《中华人民共和国民事诉讼法》· 国家法律法规数据库",
+                  "href": "https://flk.npc.gov.cn/"
                 },
                 {
-                  "text": "→ 家中座机拨出“诈骗电话”？幕后操控者究竟是谁 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-03/10725329.shtml"
-                },
-                {
-                  "text": "→ 探店不到店、数字人演“吃播” AI探店视频法律边界亟待厘清 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-03/10725284.shtml"
+                  "text": "最高人民法院 · 司法解释及规范性文件",
+                  "href": "https://www.court.gov.cn/"
                 }
               ]
             }
@@ -205,57 +298,132 @@
         },
         {
           "tid": "law_2",
-          "title": "法学前沿阅读",
-          "time": "20 分钟",
-          "hint": "关注民诉及相关法学研究。",
+          "title": "典型案例检索",
+          "time": "20分钟",
+          "hint": "从真实裁判文书中提炼争议焦点。",
           "body": [
             {
               "type": "p",
-              "html": "记录：作者研究什么问题？提出什么观点？论证是否有说服力？"
+              "html": "<b>检索主题：民事证据与证明责任</b><br/>在裁判文书中检索“举证责任”“高度盖然性”“证明责任分配”等关键词。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "记录案件基本事实。",
+                "提炼原告和被告的主要主张。",
+                "识别法院归纳的争议焦点。",
+                "分析法院如何分配证明责任。",
+                "记录裁判依据及其适用理由。"
+              ]
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "text": "人民法院案例库",
+                  "href": "https://rmfyalk.court.gov.cn/"
+                },
+                {
+                  "text": "中国裁判文书网",
+                  "href": "https://wenshu.court.gov.cn/"
+                },
+                {
+                  "text": "最高人民法院",
+                  "href": "https://www.court.gov.cn/"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "html": "本任务提供检索主题和分析方法，不代表已经核验某一具体案件。"
             }
           ]
         },
         {
           "tid": "law_3",
-          "title": "法律知识输出",
-          "time": "10 分钟",
-          "hint": "用自己的话解释一个法律问题。",
+          "title": "学术论文阅读",
+          "time": "20分钟",
+          "hint": "围绕民诉法方向阅读学术研究。",
           "body": [
             {
               "type": "p",
-              "html": "今天选择一个法律知识点，用大白话写出100字解释。"
+              "html": "<b>建议检索关键词</b><br/>民事诉讼证明责任分配、诉讼证明标准、第三人撤销之诉、执行异议之诉、程序保障与实体正义。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "找到一篇正式发表的法学论文。",
+                "记录作者、刊物、发表年份。",
+                "提炼论文研究的问题和核心观点。",
+                "梳理论证路径及其引用的规范依据。",
+                "写下一个你认为仍值得讨论的问题。"
+              ]
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "text": "中国知网",
+                  "href": "https://www.cnki.net/"
+                },
+                {
+                  "text": "国家哲学社会科学文献中心",
+                  "href": "https://www.ncpssd.cn/"
+                },
+                {
+                  "text": "法学研究期刊信息",
+                  "href": "https://www.iolaw.org.cn/"
+                }
+              ]
             }
           ]
         }
       ]
     },
     "finance": {
-      "sub": "知识点 · 市场速览 · 实操任务",
+      "sub": "财经观察 · 投资基础 · 财富管理",
       "tasks": [
         {
           "tid": "fin_1",
-          "title": "今日财经速览",
-          "time": "20 分钟",
-          "hint": "了解当天重要财经信息。",
+          "title": "财经信息观察",
+          "time": "20分钟",
+          "hint": "从宏观经济、资本市场和产业三个角度理解新闻。",
           "body": [
             {
               "type": "p",
-              "html": "<b>今日最新资讯</b>"
+              "html": "<b>每日关注方向</b>"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "宏观经济：GDP、CPI、PPI、就业、消费和货币政策。",
+                "资本市场：A股、港股、美股主要指数及债券市场。",
+                "产业动态：人工智能、先进制造、新能源、医药和消费。",
+                "国际经济：美联储政策、汇率、国际贸易和大宗商品。"
+              ]
             },
             {
               "type": "links",
               "items": [
                 {
-                  "text": "→ 全国放心消费平台正式上线 面向消费者提供哪些功能？ · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-04/10725710.shtml"
+                  "text": "中国人民银行",
+                  "href": "https://www.pbc.gov.cn/"
                 },
                 {
-                  "text": "→ 10月份中国仓储指数为49.8% · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-04/10725701.shtml"
+                  "text": "国家统计局",
+                  "href": "https://www.stats.gov.cn/"
                 },
                 {
-                  "text": "→ 中国微短剧何以全球“圈粉” · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-04/10725696.shtml"
+                  "text": "上海证券交易所",
+                  "href": "https://www.sse.com.cn/"
+                },
+                {
+                  "text": "深圳证券交易所",
+                  "href": "https://www.szse.cn/"
+                },
+                {
+                  "text": "Reuters · 全球财经新闻",
+                  "href": "https://www.reuters.com/markets/"
                 }
               ]
             }
@@ -263,144 +431,221 @@
         },
         {
           "tid": "fin_2",
-          "title": "投资知识点",
-          "time": "20 分钟",
-          "hint": "每天学习一个基础投资概念。",
+          "title": "投资知识：指数基金",
+          "time": "20分钟",
+          "hint": "理解指数基金的运作方式和风险。",
           "body": [
             {
               "type": "p",
-              "html": "今天学习：指数基金、估值、复利、资产配置、风险收益关系中的任意一个概念。"
+              "html": "<b>什么是指数基金？</b><br/>指数基金以特定指数为跟踪目标，通过持有指数成分证券，力求获得与指数相近的收益表现。"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "宽基指数：覆盖多个行业或较广泛市场。",
+                "行业指数：集中投资于特定行业，波动和集中度风险可能更高。",
+                "跟踪误差：基金收益与目标指数收益之间的偏离。",
+                "管理费与托管费：长期持有时需要关注的成本。",
+                "最大回撤：衡量某一阶段从高点到低点的下跌幅度。"
+              ]
+            },
+            {
+              "type": "note",
+              "html": "指数基金并不保本，也不保证长期盈利。投资前应了解自身风险承受能力、费用和产品规则。"
             }
           ]
         },
         {
           "tid": "fin_3",
-          "title": "基金定投观察",
-          "time": "20 分钟",
-          "hint": "记录观察，不盲目交易。",
+          "title": "个人财富管理实操",
+          "time": "20分钟",
+          "hint": "建立收支、储蓄和风险管理意识。",
           "body": [
             {
               "type": "p",
-              "html": "记录一个关注指数或基金：长期逻辑、估值情况、主要风险以及自己为什么继续观察。"
+              "html": "<b>今日任务：制作个人收支表</b>"
+            },
+            {
+              "type": "ul",
+              "items": [
+                "记录本月收入来源。",
+                "将支出分为必要支出、弹性支出和非必要支出。",
+                "计算储蓄率：储蓄金额 ÷ 可支配收入。",
+                "预留应急资金，避免将短期必需资金投入高波动资产。",
+                "明确自己的投资期限和最大可承受亏损。"
+              ]
+            },
+            {
+              "type": "p",
+              "html": "<b>思考题：</b>为什么投资之前，应该先建立应急资金和基本保障？"
             },
             {
               "type": "note",
-              "html": "本工作台内容仅用于个人学习，不构成投资建议。"
+              "html": "本模块用于财经知识学习，不构成个性化投资建议。"
             }
           ]
         }
       ]
     },
     "sport": {
-      "sub": "帕梅拉 · 瘦背芭杆 · 护眼 · 身材管理",
+      "sub": "有氧训练 · 力量塑形 · 体态管理",
       "tasks": [
         {
           "tid": "sp_1",
-          "title": "今日主体运动",
-          "time": "40 分钟",
-          "hint": "完成今天的主要训练。",
+          "title": "今日主体训练",
+          "time": "35分钟",
+          "hint": "根据身体状态选择低冲击或常规训练。",
           "body": [
             {
               "type": "ul",
               "items": [
-                "热身5分钟",
-                "主体训练25—30分钟",
-                "拉伸5—10分钟"
+                "热身5分钟：原地踏步、肩部绕环、髋关节活动。",
+                "深蹲：3组，每组10—12次。",
+                "臀桥：3组，每组12—15次。",
+                "跪姿俯卧撑或靠墙俯卧撑：2组，每组8—10次。",
+                "平板支撑：2组，每组20—30秒。",
+                "最后慢走和放松5分钟。"
               ]
+            },
+            {
+              "type": "note",
+              "html": "动作以标准和可控为先。若出现疼痛、头晕或明显不适，立即停止。"
             }
           ]
         },
         {
           "tid": "sp_2",
-          "title": "背部与体态",
-          "time": "15 分钟",
-          "hint": "重点训练肩颈、背部和核心。",
+          "title": "肩背与体态训练",
+          "time": "15分钟",
+          "hint": "改善久坐后的肩颈紧张和背部活动能力。",
           "body": [
             {
               "type": "ul",
               "items": [
-                "肩胛骨控制",
-                "胸椎活动",
-                "背部伸展",
-                "核心稳定"
+                "肩胛骨后缩：12次。",
+                "靠墙天使：10次。",
+                "猫牛式：10次。",
+                "胸椎旋转：左右各8次。",
+                "鸟狗式：左右各10次。"
               ]
-            }
-          ]
-        },
-        {
-          "tid": "sp_3",
-          "title": "护眼与拉伸",
-          "time": "5 分钟",
-          "hint": "学习结束后主动放松。",
-          "body": [
-            {
-              "type": "p",
-              "html": "长时间看电脑后进行短暂休息，完成轻柔拉伸。"
-            }
-          ]
-        }
-      ]
-    },
-    "intern": {
-      "sub": "法务精选 · 律所精选 · 重点关注",
-      "tasks": [
-        {
-          "tid": "in_1",
-          "title": "今日职业环境速览",
-          "time": "20 分钟",
-          "hint": "查看法务、律所和相关岗位。",
-          "body": [
-            {
-              "type": "p",
-              "html": "<b>今日最新资讯</b>"
             },
             {
               "type": "links",
               "items": [
                 {
-                  "text": "→ 欧洲多架客机及一艘邮轮遭炸弹威胁 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-04/10725708.shtml"
+                  "text": "NHS · Strength and flexibility exercises",
+                  "href": "https://www.nhs.uk/live-well/exercise/strength-and-flex-exercise-plan/"
                 },
                 {
-                  "text": "→ 印尼警方：3人因涉嫌窃听总统被列为犯罪嫌疑人 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-04/10725702.shtml"
-                },
-                {
-                  "text": "→ 泰国将进口电动汽车消费税税率上调至35% · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-04/10725705.shtml"
+                  "text": "WHO · Physical activity",
+                  "href": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
                 }
               ]
             }
           ]
         },
         {
+          "tid": "sp_3",
+          "title": "拉伸与护眼",
+          "time": "10分钟",
+          "hint": "结束训练并放松身体。",
+          "body": [
+            {
+              "type": "ul",
+              "items": [
+                "小腿和大腿后侧轻柔拉伸。",
+                "胸部和肩部舒展。",
+                "颈部轻柔活动，避免用力扳动。",
+                "长时间使用屏幕后，定时远眺并适当休息。",
+                "保持规律睡眠和日常活动。"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "intern": {
+      "sub": "企业法务 · 律所实习 · 涉外职业",
+      "tasks": [
+        {
+          "tid": "in_1",
+          "title": "真实招聘渠道",
+          "time": "20分钟",
+          "hint": "进入招聘平台筛选实际在招岗位。",
+          "body": [
+            {
+              "type": "p",
+              "html": "优先检索以下岗位关键词：法务实习生、法律实习生、合规实习生、争议解决实习生、涉外法律实习生、企业风控实习生。"
+            },
+            {
+              "type": "links",
+              "items": [
+                {
+                  "text": "BOSS直聘",
+                  "href": "https://www.zhipin.com/"
+                },
+                {
+                  "text": "智联招聘",
+                  "href": "https://www.zhaopin.com/"
+                },
+                {
+                  "text": "前程无忧",
+                  "href": "https://www.51job.com/"
+                },
+                {
+                  "text": "国家大学生就业服务平台",
+                  "href": "https://www.ncss.cn/"
+                },
+                {
+                  "text": "国聘平台",
+                  "href": "https://www.iguopin.com/"
+                }
+              ]
+            },
+            {
+              "type": "note",
+              "html": "岗位是否在招、工作地点、截止日期和学历要求，以招聘单位当前发布的信息为准。本页面不将招聘平台入口冒充为具体在招岗位。"
+            }
+          ]
+        },
+        {
           "tid": "in_2",
-          "title": "目标岗位筛选",
-          "time": "20 分钟",
-          "hint": "筛选3个值得关注的岗位。",
+          "title": "职业方向与能力要求",
+          "time": "20分钟",
+          "hint": "对照目标岗位建立能力清单。",
           "body": [
             {
               "type": "table",
               "head": [
-                "方向",
-                "关注重点",
-                "行动"
+                "职业方向",
+                "重点能力",
+                "建议积累"
               ],
               "rows": [
                 [
                   "企业法务",
-                  "央国企 / 外企 / 大厂",
-                  "查看招聘要求"
+                  "合同审查、法律检索、风险识别",
+                  "合同审查案例、法律意见书"
                 ],
                 [
-                  "律所",
-                  "商事 / 涉外 / 争议解决",
-                  "查看实习要求"
+                  "律所争议解决",
+                  "诉讼文书、案例检索、证据分析",
+                  "民商事案例分析、法律文书"
                 ],
                 [
-                  "合规",
-                  "数据 / 风控 / 公司治理",
-                  "记录能力要求"
+                  "涉外法律",
+                  "英文法律检索、合同英语、跨境规则",
+                  "英文阅读、法律英语写作"
+                ],
+                [
+                  "合规风控",
+                  "合规制度、调查分析、风险管理",
+                  "合规案例、制度研究"
+                ],
+                [
+                  "央国企法务",
+                  "公司治理、合同管理、国资合规",
+                  "国企招聘要求、法律政策"
                 ]
               ]
             }
@@ -408,18 +653,23 @@
         },
         {
           "tid": "in_3",
-          "title": "完成一次职业行动",
-          "time": "20 分钟",
-          "hint": "投递、收藏或优化简历。",
+          "title": "求职行动与简历优化",
+          "time": "20分钟",
+          "hint": "完成一次真实、可记录的求职行动。",
           "body": [
             {
               "type": "ul",
               "items": [
-                "优化简历一个细节",
-                "收藏3个目标岗位",
-                "至少完成1次有效投递或沟通",
-                "记录岗位要求中高频出现的能力"
+                "收藏3个符合目标方向的岗位。",
+                "记录每个岗位的学历、专业、技能和实习要求。",
+                "将简历中的一项经历改写为具体行动和成果。",
+                "检查简历是否突出法律检索、文书写作、沟通协作等能力。",
+                "符合条件时再投递，并记录投递日期和反馈。"
               ]
+            },
+            {
+              "type": "note",
+              "html": "不要为了增加投递数量而盲目海投。优先选择职责清楚、培养机制合理、与长期方向相关的岗位。"
             }
           ]
         }
