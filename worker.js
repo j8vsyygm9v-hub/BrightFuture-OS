@@ -7,17 +7,15 @@ const ALLOWED_MODULES = [
   "intern"
 ];
 
-const corsHeaders = {
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-  "Access-Control-Allow-Headers": "Content-Type, X-Update-Password",
-  "Content-Type": "application/json; charset=utf-8"
-};
-
 function json(data, status = 200) {
   return new Response(JSON.stringify(data), {
     status,
-    headers: corsHeaders
+    headers: {
+      "Content-Type": "application/json; charset=utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type, X-Update-Password"
+    }
   });
 }
 
@@ -25,30 +23,31 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
-    // 处理浏览器跨域预检
-    if (request.method === "OPTIONS" && url.pathname === "/api/update") {
-      return new Response(null, {
-        status: 204,
-        headers: corsHeaders
-      });
-    }
-
     // 更新接口
     if (url.pathname === "/api/update") {
+      if (request.method === "OPTIONS") {
+        return new Response(null, {
+          status: 204,
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type, X-Update-Password"
+          }
+        });
+      }
+
       if (request.method !== "POST") {
         return json({ error: "Method not allowed" }, 405);
       }
 
-      // 检查更新密码
       const password = request.headers.get("X-Update-Password");
 
       if (!env.UPDATE_PASSWORD || password !== env.UPDATE_PASSWORD) {
-        return json({ error: "更新密码错误或未配置" }, 401);
+        return json({ error: "密码错误" }, 401);
       }
 
-      // 检查后台配置
       if (!env.GITHUB_TOKEN || !env.GITHUB_OWNER || !env.GITHUB_REPO) {
-        return json({ error: "GitHub 环境变量未配置完整" }, 500);
+        return json({ error: "GitHub 环境变量配置不完整" }, 500);
       }
 
       let body;
@@ -56,28 +55,29 @@ export default {
       try {
         body = await request.json();
       } catch {
-        return json({ error: "请求内容不是有效 JSON" }, 400);
+        return json({ error: "请求数据格式错误" }, 400);
       }
 
       const modules = Array.isArray(body.modules)
-        ? [...new Set(body.modules)]
-        : [];
+        ? body.modules
+        : typeof body.modules === "string"
+          ? body.modules.split(",").map(x => x.trim()).filter(Boolean)
+          : [];
+
+      const selected = [...new Set(modules)];
 
       if (
-        modules.length === 0 ||
-        modules.some(module => !ALLOWED_MODULES.includes(module))
+        selected.length === 0 ||
+        selected.some(m => !ALLOWED_MODULES.includes(m))
       ) {
-        return json({ error: "模块选择无效" }, 400);
+        return json({ error: "更新模块选择无效" }, 400);
       }
 
-      // 触发 GitHub Actions
-      const githubUrl =
+      const apiUrl =
         `https://api.github.com/repos/${env.GITHUB_OWNER}/${env.GITHUB_REPO}/actions/workflows/daily-update.yml/dispatches`;
 
-      let githubResponse;
-
       try {
-        githubResponse = await fetch(githubUrl, {
+        const response = await fetch(apiUrl, {
           method: "POST",
           headers: {
             "Authorization": `Bearer ${env.GITHUB_TOKEN}`,
@@ -89,40 +89,40 @@ export default {
           body: JSON.stringify({
             ref: "main",
             inputs: {
-              modules: modules.join(",")
+              modules: selected.join(",")
             }
           })
         });
+
+        if (!response.ok) {
+          const detail = await response.text();
+          return json({
+            error: "GitHub 请求失败",
+            status: response.status,
+            detail: detail.slice(0, 1000)
+          }, 502);
+        }
+
+        return json({
+          success: true,
+          message: "更新任务已提交，请稍后刷新工作台。",
+          modules: selected
+        });
       } catch (error) {
         return json({
-          error: "连接 GitHub 失败：" + error.message
+          error: "连接 GitHub 失败",
+          detail: String(error)
         }, 502);
       }
-
-      if (!githubResponse.ok) {
-        const detail = await githubResponse.text();
-
-        return json({
-          error: "GitHub 拒绝了更新请求",
-          status: githubResponse.status,
-          detail: detail.slice(0, 1000)
-        }, 502);
-      }
-
-      return json({
-        success: true,
-        message: "更新请求已成功提交",
-        modules
-      }, 200);
     }
 
-    // 其他路径交给 Cloudflare 静态资源服务
+    // 其他请求交给 Cloudflare 静态资源服务
     if (env.ASSETS && typeof env.ASSETS.fetch === "function") {
       return env.ASSETS.fetch(request);
     }
 
     return json({
-      error: "未找到接口或静态资源绑定 ASSETS"
+      error: "静态资源未配置，请检查 Cloudflare Assets 绑定"
     }, 404);
   }
 };
