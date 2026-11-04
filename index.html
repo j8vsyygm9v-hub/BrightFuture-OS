@@ -151,139 +151,109 @@ textarea{width:100%;min-height:100px;background:#0d1526;border:1px solid var(--l
 
 <script>
 "use strict";
-
 const DATA = {
-ielts:{
- name:"国际人",code:"LANGUAGE / 01",sub:"语言能力 · 全球视野 · 跨文化沟通",
- tasks:[
+ ielts:{name:"国际人",code:"LANGUAGE / 01",sub:"语言能力 · 全球视野 · 跨文化沟通",tasks:[
   {title:"英语听力训练 · 20 分钟",desc:"选择一段英语材料，先盲听，再对照文本。记录听不懂的词汇、连读和表达。",links:[["BBC Learning English","https://www.bbc.co.uk/learningenglish"],["VOA Learning English","https://learningenglish.voanews.com/"]]},
   {title:"口语输出 · 20 分钟",desc:"围绕一个话题连续表达 2 分钟，录下自己的回答，再检查发音、语法和停顿。",links:[["IELTS 官方备考资源","https://ielts.org/take-a-test/preparation-resources"]]},
   {title:"词汇与写作 · 20 分钟",desc:"学习 5—10 个词汇或搭配，用新词造句；每周至少完成一篇英语短文。",links:[["IELTS 官方网站","https://ielts.org/"]]}
  ]},
-exam:{
- name:"治理者",code:"GOVERNANCE / 02",sub:"公共事务 · 时政素养 · 逻辑表达",
- tasks:[
+ exam:{name:"治理者",code:"GOVERNANCE / 02",sub:"公共事务 · 时政素养 · 逻辑表达",tasks:[
   {title:"公务员题目练习 · 5 道",desc:"完成 5 道行测题，优先练习言语理解、判断推理、资料分析。记录错误原因。这里提供的是练习任务，不是实时题库。",links:[["国家公务员局","https://www.scs.gov.cn/"]]},
   {title:"权威时政阅读 · 15 分钟",desc:"阅读一则政策或时政新闻，记录事件背景、核心措施、影响及相关政策关键词。",links:[["中国政府网","https://www.gov.cn/"],["新华社","https://www.news.cn/"],["人民日报","https://www.people.com.cn/"]]},
   {title:"申论表达 · 10 分钟",desc:"用 150—200 字概括一则新闻中的主要问题、原因与对策，训练结构化表达。",links:[["国家政务服务平台","https://gjzwfw.www.gov.cn/"]]}
  ]},
-law:{
- name:"律政人",code:"LEGAL MIND / 03",sub:"法律研究 · 案例研习 · 实务能力",
- tasks:[
+ law:{name:"律政人",code:"LEGAL MIND / 03",sub:"法律研究 · 案例研习 · 实务能力",tasks:[
   {title:"民事诉讼法专题 · 30 分钟",desc:"围绕一个专题整理法条、构成要件、法律后果和易混淆概念。可选管辖、共同诉讼、第三人撤销之诉、执行异议之诉等。",links:[["国家法律法规数据库","https://flk.npc.gov.cn/"],["中国人大网","http://www.npc.gov.cn/"]]},
   {title:"真实案例研习 · 20 分钟",desc:"选择一个真实案例，按争议焦点、法律依据、裁判理由、裁判结果四部分做笔记。核对案件信息和裁判日期。",links:[["最高人民法院","https://www.court.gov.cn/"],["人民法院案例库","https://rmfyalk.court.gov.cn/"],["中国裁判文书网","https://wenshu.court.gov.cn/"]]},
   {title:"法律写作训练 · 10 分钟",desc:"练习撰写一段法律检索结论、一份案件时间线或一份争议焦点清单。优先引用现行法律和权威裁判材料。",links:[["中国法学网","http://www.iolaw.org.cn/"]]}
  ]},
-finance:{
- name:"财富家",code:"WEALTH / 04",sub:"财经认知 · 资产管理 · 长期主义",
- tasks:[
+ finance:{name:"财富家",code:"WEALTH / 04",sub:"财经认知 · 资产管理 · 长期主义",tasks:[
   {title:"全球财经信息 · 15 分钟",desc:"阅读一则宏观经济或市场新闻，记下事件、关键数据、可能的影响路径及不确定因素。交叉核对来源。",links:[["中国人民银行","http://www.pbc.gov.cn/"],["国家统计局","https://www.stats.gov.cn/"],["中国证监会","https://www.csrc.gov.cn/"]]},
   {title:"个人收支记录 · 5 分钟",desc:"记录今日支出，区分必要支出、弹性消费和冲动消费。每周回顾预算、储蓄与应急储备。"},
   {title:"投资基础学习 · 15 分钟",desc:"学习一个概念：指数基金、分散投资、费用率、资产配置、风险收益或复利。先理解风险，再考虑收益。",links:[["上海证券交易所投资者教育","https://edu.sse.com.cn/"],["深圳证券交易所投资者教育","https://investor.szse.cn/"]]}
  ]},
-sport:{
- name:"竞技者",code:"VITALITY / 05",sub:"体能训练 · 规律作息 · 身心状态",
- tasks:[
+ sport:{name:"竞技者",code:"VITALITY / 05",sub:"体能训练 · 规律作息 · 身心状态",tasks:[
   {title:"热身与活动 · 10 分钟",desc:"快走、原地踏步和动态活动，逐渐提升强度，根据当天身体状态调整。"},
   {title:"主体运动 · 35—40 分钟",desc:"可选择快走、慢跑、骑行、游泳或力量训练。循序渐进，不必每天高强度训练；身体不适时及时休息。",links:[["世界卫生组织：身体活动","https://www.who.int/news-room/fact-sheets/detail/physical-activity"],["美国疾病控制与预防中心","https://www.cdc.gov/physical-activity-basics/"]]},
   {title:"放松与记录 · 10 分钟",desc:"进行舒缓拉伸，记录运动类型、时长和身体感受。出现胸痛、晕厥或异常气促时立即停止运动并寻求医疗帮助。"}
  ]},
-career:{
- name:"职业家",code:"CAREER / 06",sub:"职业探索 · 实习求职 · 专业竞争力",
- tasks:[
+ career:{name:"职业家",code:"CAREER / 06",sub:"职业探索 · 实习求职 · 专业竞争力",tasks:[
   {title:"岗位信息检索 · 15 分钟",desc:"筛选法务、律所、央国企、外企或涉外法律岗位，关注工作内容、城市、资格要求和截止日期。核实岗位是否仍在招聘。",links:[["国聘","https://www.iguopin.com/"],["中国公共招聘网","https://job.mohrss.gov.cn/"],["BOSS直聘","https://www.zhipin.com/"],["智联招聘","https://www.zhaopin.com/"],["猎聘","https://www.liepin.com/"]]},
   {title:"职业技能提升 · 20 分钟",desc:"完成一项可展示的成果：修改简历、练习英文自我介绍、整理法律检索案例或撰写一份简短法律分析。"},
   {title:"职业资产积累 · 10 分钟",desc:"把今天的成果存档，记录岗位要求与自身能力差距，每周复盘并更新求职计划。"}
  ]}
 };
-
 const $=id=>document.getElementById(id);
 const pad=n=>String(n).padStart(2,"0");
 function dayKey(){const d=new Date();return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate())}
 function storageKey(){return "bright-future-workbench-v3"}
-function load(){
- try{return JSON.parse(localStorage.getItem(storageKey())||"{}")}catch(e){return {}}
-}
-let state=load();
-let current=null;
-function ensureDay(){
- const today=dayKey();
- if(state.date!==today){state.date=today;state.done={};state.notes={};save()}
- if(!state.done)state.done={};
- if(!state.notes)state.notes={};
-}
+function load(){try{return JSON.parse(localStorage.getItem(storageKey())||"{}")}catch(e){return {}}}
+let state=load(),current=null,dailyDate=null;
+function ensureDay(){const today=dayKey();if(state.date!==today){state.date=today;state.done={};state.notes={};save()}if(!state.done)state.done={};if(!state.notes)state.notes={}}
 function save(){try{localStorage.setItem(storageKey(),JSON.stringify(state))}catch(e){}}
 function doneKey(id,index){return id+"-"+index}
 function isDone(id,index){return !!state.done[doneKey(id,index)]}
 function moduleCount(id){return DATA[id].tasks.filter((t,i)=>isDone(id,i)).length}
+function cleanText(value){return String(value||"").replace(/<[^>]*>/g,"").trim()}
+function applyDailyModule(targetId,sourceModule){
+ if(!sourceModule||!Array.isArray(sourceModule.tasks)||!sourceModule.tasks.length)return;
+ DATA[targetId].tasks=sourceModule.tasks.map(task=>({title:task.title||"今日任务",time:task.time||"",desc:task.hint||"",body:Array.isArray(task.body)?task.body:[],links:[]}));
+ if(sourceModule.sub)DATA[targetId].sub=sourceModule.sub;
+}
+async function loadDailyData(){
+ try{
+  const response=await fetch("./daily.json?v="+Date.now(),{cache:"no-store"});
+  if(!response.ok)throw new Error("daily.json HTTP "+response.status);
+  const daily=await response.json(),modules=daily.modules||{};
+  applyDailyModule("ielts",modules.ielts);
+  applyDailyModule("exam",modules.gongkao||modules.exam);
+  applyDailyModule("law",modules.law);
+  applyDailyModule("finance",modules.finance);
+  applyDailyModule("sport",modules.sport);
+  applyDailyModule("career",modules.intern||modules.career);
+  dailyDate=daily.date||null;
+ }catch(error){console.warn("每日数据读取失败，暂时显示内置内容：",error)}
+}
 function updateHome(){
  let total=0,done=0;
- Object.keys(DATA).forEach(id=>{
-  total+=DATA[id].tasks.length;done+=moduleCount(id);
-  const el=$("count-"+id);
-  if(el)el.textContent=moduleCount(id)+"/"+DATA[id].tasks.length+" 项完成";
- });
+ Object.keys(DATA).forEach(id=>{total+=DATA[id].tasks.length;done+=moduleCount(id);const el=$("count-"+id);if(el)el.textContent=moduleCount(id)+"/"+DATA[id].tasks.length+" 项完成"});
  $("progressText").textContent="已完成 "+done+" / "+total+" 项";
  $("progressFill").style.width=(total?done/total*100:0)+"%";
- $("today").textContent=new Date().toLocaleDateString("zh-CN",{year:"numeric",month:"long",day:"numeric",weekday:"long"});
+ $("today").textContent=(dailyDate?"今日内容更新："+dailyDate+" · ":"")+new Date().toLocaleDateString("zh-CN",{year:"numeric",month:"long",day:"numeric",weekday:"long"});
 }
-function makeLink(label,url){
- const a=document.createElement("a");
- a.className="link";a.href=url;a.target="_blank";a.rel="noopener noreferrer";a.textContent=label;
- return a;
+function makeLink(label,url){const a=document.createElement("a");a.className="link";a.href=url;a.target="_blank";a.rel="noopener noreferrer";a.textContent=label;return a}
+function renderDailyBody(container,blocks){
+ (blocks||[]).forEach(block=>{
+  if(block.type==="p"||block.type==="note"){const p=document.createElement("p");p.textContent=cleanText(block.html);if(block.type==="note"){p.style.color="#e9c58b";p.style.padding="9px 11px";p.style.border="1px solid #5b4b2e";p.style.borderRadius="9px"}container.append(p)}
+  else if(block.type==="links"){const links=document.createElement("div");links.className="links";(block.items||[]).forEach(item=>{if(item.href)links.append(makeLink(item.text||"查看来源",item.href))});container.append(links)}
+  else if(block.type==="ul"){const ul=document.createElement("ul");(block.items||[]).forEach(value=>{const li=document.createElement("li");li.textContent=value;ul.append(li)});container.append(ul)}
+  else if(block.type==="table"){const table=document.createElement("table");table.style.width="100%";table.style.borderCollapse="collapse";table.style.marginTop="10px";const rows=[];if(block.head)rows.push(block.head);(block.rows||[]).forEach(row=>rows.push(row));rows.forEach((row,index)=>{const tr=document.createElement("tr");row.forEach(value=>{const cell=document.createElement(index===0&&block.head?"th":"td");cell.textContent=value;cell.style.border="1px solid #344662";cell.style.padding="7px";cell.style.textAlign="left";tr.append(cell)});table.append(tr)});container.append(table)}
+ });
 }
 function renderDetail(id){
- current=id;const m=DATA[id];
- $("home").classList.add("hidden");$("detail").classList.remove("hidden");
- $("detailCode").textContent=m.code;$("detailTitle").textContent=m.name;$("detailSub").textContent=m.sub;
- $("detailDate").textContent=dayKey();
+ current=id;const m=DATA[id];$("home").classList.add("hidden");$("detail").classList.remove("hidden");
+ $("detailCode").textContent=m.code;$("detailTitle").textContent=m.name;$("detailSub").textContent=m.sub;$("detailDate").textContent=(dailyDate?"内容日期："+dailyDate+" · ":"")+dayKey();
  const wrap=$("tasks");wrap.replaceChildren();
  m.tasks.forEach((t,i)=>{
   const article=document.createElement("article");article.className="task"+(isDone(id,i)?" done":"");
-  const head=document.createElement("div");head.className="taskhead";
-  const checkbox=document.createElement("input");checkbox.type="checkbox";checkbox.className="check";checkbox.checked=isDone(id,i);
-  checkbox.setAttribute("aria-label","完成："+t.title);
-  checkbox.addEventListener("change",()=>{
-   state.done[doneKey(id,i)]=checkbox.checked;save();article.classList.toggle("done",checkbox.checked);updateHome();
-  });
-  const title=document.createElement("h3");title.textContent=t.title;
-  head.append(checkbox,title);article.append(head);
+  const head=document.createElement("div");head.className="taskhead";const checkbox=document.createElement("input");checkbox.type="checkbox";checkbox.className="check";checkbox.checked=isDone(id,i);checkbox.setAttribute("aria-label","完成："+t.title);
+  checkbox.addEventListener("change",()=>{state.done[doneKey(id,i)]=checkbox.checked;save();article.classList.toggle("done",checkbox.checked);updateHome()});
+  const title=document.createElement("h3");title.textContent=t.title+(t.time?" · "+t.time:"");head.append(checkbox,title);article.append(head);
   const body=document.createElement("div");body.className="taskbody";
-  const p=document.createElement("p");p.textContent=t.desc;body.append(p);
-  if(t.links&&t.links.length){
-   const links=document.createElement("div");links.className="links";
-   t.links.forEach(item=>links.append(makeLink(item[0],item[1])));
-   body.append(links);
-  }
+  if(t.body&&t.body.length){renderDailyBody(body,t.body);if(t.desc){const hint=document.createElement("p");hint.style.color="#98a9c4";hint.textContent=t.desc;body.prepend(hint)}}
+  else{const p=document.createElement("p");p.textContent=t.desc||"";body.append(p);if(t.links&&t.links.length){const links=document.createElement("div");links.className="links";t.links.forEach(item=>links.append(makeLink(item[0],item[1])));body.append(links)}}
   article.append(body);wrap.append(article);
  });
- $("note").value=state.notes[id]||"";
- $("noteStatus").textContent="";
- window.scrollTo({top:0,behavior:"smooth"});
+ $("note").value=state.notes[id]||"";$("noteStatus").textContent="";window.scrollTo({top:0,behavior:"smooth"});
 }
-function goHome(){
- current=null;$("detail").classList.add("hidden");$("home").classList.remove("hidden");
- updateHome();window.scrollTo({top:0,behavior:"smooth"});
-}
+function goHome(){current=null;$("detail").classList.add("hidden");$("home").classList.remove("hidden");updateHome();window.scrollTo({top:0,behavior:"smooth"})}
 document.querySelectorAll("[data-id]").forEach(btn=>btn.addEventListener("click",()=>renderDetail(btn.dataset.id)));
 $("back").addEventListener("click",e=>{e.preventDefault();goHome()});
-$("reset").addEventListener("click",()=>{
- if(!current)return;
- if(!confirm("确定重置这个板块今天的全部打卡吗？"))return;
- DATA[current].tasks.forEach((t,i)=>delete state.done[doneKey(current,i)]);
- save();renderDetail(current);updateHome();
-});
-$("saveNote").addEventListener("click",()=>{
- if(!current)return;
- state.notes[current]=$("note").value;save();$("noteStatus").textContent="已保存";
-});
-$("export").addEventListener("click",()=>{
- const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json;charset=utf-8"});
- const url=URL.createObjectURL(blob);const a=document.createElement("a");
- a.href=url;a.download="bright-future-backup-"+dayKey()+".json";a.click();
- setTimeout(()=>URL.revokeObjectURL(url),1000);
-});
-ensureDay();updateHome();
+$("reset").addEventListener("click",()=>{if(!current)return;if(!confirm("确定重置这个板块今天的全部打卡吗？"))return;DATA[current].tasks.forEach((t,i)=>delete state.done[doneKey(current,i)]);save();renderDetail(current);updateHome()});
+$("saveNote").addEventListener("click",()=>{if(!current)return;state.notes[current]=$("note").value;save();$("noteStatus").textContent="已保存"});
+$("export").addEventListener("click",()=>{const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json;charset=utf-8"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="bright-future-backup-"+dayKey()+".json";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)});
+async function init(){ensureDay();await loadDailyData();updateHome()}
+init();
 </script>
 </body>
 </html>
