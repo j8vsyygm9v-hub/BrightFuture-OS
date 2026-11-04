@@ -1,54 +1,47 @@
-
 {
   "v": 2,
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "brief": [
     {
       "mid": "ielts",
       "tag": "国际视野",
       "items": [
-        "雅思听力精听与口语跟读",
-        "阅读长难句与写作论证训练"
+        "BBC Learning English - 6 Minute English / Is aircon the answer to a heating world?"
       ]
     },
     {
       "mid": "gongkao",
       "tag": "政治洞察",
       "items": [
-        "每日5道行测题及解析",
-        "时政政策与申论素材积累"
+        "军队文职人员公开招考，今起报名！这些事项要注意"
       ]
     },
     {
       "mid": "law",
       "tag": "法律专业",
       "items": [
-        "民事诉讼法重点问题研究",
-        "典型案例与司法裁判思路"
+        "三千余名艺人信息被泄露 起底追星背后的黑色产业链"
       ]
     },
     {
       "mid": "finance",
       "tag": "财富管理",
       "items": [
-        "财经信息与宏观经济观察",
-        "指数基金、资产配置与风险管理"
+        "10月中国大宗商品价格指数同比上涨21.0%"
       ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
       "items": [
-        "法务、律所、央国企及外企岗位",
-        "简历优化与求职能力积累"
+        "美国突发直升机坠毁事故 致1死2伤"
       ]
     },
     {
       "mid": "sport",
       "tag": "卓越健康",
       "items": [
-        "有氧、力量与体态训练",
-        "肩背、核心及日常护眼"
+        "完成今日约1小时运动，并进行拉伸与护眼。"
       ]
     }
   ],
@@ -58,34 +51,29 @@
       "tasks": [
         {
           "tid": "ielts_1",
-          "title": "听力精练：BBC 6 Minute English",
+          "title": "今日 BBC 英语资讯",
           "time": "25分钟",
           "hint": "先盲听，再看文本，最后复听。",
           "body": [
             {
               "type": "p",
-              "html": "训练目标：听懂英语自然语速，识别关键词、连读和弱读。"
+              "html": "<b>今日最新资讯</b>"
             },
             {
               "type": "links",
               "items": [
                 {
-                  "text": "BBC Learning English · 6 Minute English",
-                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+                  "text": "→ BBC Learning English - 6 Minute English / Is aircon the answer to a heating world? · BBC Learning English",
+                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261029"
                 },
                 {
-                  "text": "British Council · IELTS Listening",
-                  "href": "https://takeielts.britishcouncil.org/take-ielts/prepare/free-ielts-english-practice-tests/listening"
+                  "text": "→ BBC Learning English - 6 Minute English / What should you eat for a better night’s sleep? · BBC Learning English",
+                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261022"
+                },
+                {
+                  "text": "→ BBC Learning English - 6 Minute English / Why do people buy gold? · BBC Learning English",
+                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261015"
                 }
-              ]
-            },
-            {
-              "type": "ul",
-              "items": [
-                "第一遍：不看文本，记录听到的主题和关键词。",
-                "第二遍：结合文本，找出没听懂的句子。",
-                "第三遍：关闭文本复听，确认理解。",
-                "摘录5个实用词块，记录英文、中文和例句。"
               ]
             }
           ]
@@ -160,33 +148,30 @@
       "tasks": [
         {
           "tid": "gk_1",
-          "title": "每日5道行测题",
+          "title": "今日时政速览",
           "time": "20分钟",
           "hint": "先独立作答，再核对答案。",
           "body": [
             {
               "type": "p",
-              "html": "<b>第1题｜法律常识</b><br/>根据《中华人民共和国民法典》，下列关于诉讼时效的说法，正确的是：<br/>A. 普通诉讼时效期间为一年<br/>B. 普通诉讼时效期间为三年<br/>C. 所有请求权均适用诉讼时效<br/>D. 诉讼时效期间不得中止"
+              "html": "<b>今日最新资讯</b>"
             },
             {
-              "type": "p",
-              "html": "<b>第2题｜政治常识</b><br/>我国国家机构实行的根本组织原则是：<br/>A. 三权分立<br/>B. 民主集中制<br/>C. 联邦制<br/>D. 地方自治"
-            },
-            {
-              "type": "p",
-              "html": "<b>第3题｜经济常识</b><br/>在其他条件不变的情况下，中央银行提高存款准备金率通常会：<br/>A. 增加银行可贷资金<br/>B. 收紧银行体系流动性<br/>C. 直接降低企业税负<br/>D. 增加财政支出"
-            },
-            {
-              "type": "p",
-              "html": "<b>第4题｜逻辑判断</b><br/>所有A都是B，有些B是C。由此可以必然推出：<br/>A. 所有A都是C<br/>B. 有些A是C<br/>C. 有些C是B<br/>D. 所有C都是B"
-            },
-            {
-              "type": "p",
-              "html": "<b>第5题｜言语理解</b><br/>“制度的生命力在于执行。”这句话主要强调：<br/>A. 制度设计不重要<br/>B. 制度落实的重要性<br/>C. 制度可以随意变更<br/>D. 制度只需制定即可"
-            },
-            {
-              "type": "note",
-              "html": "<b>参考答案与解析</b><br/>1.B：《民法典》规定普通诉讼时效期间为三年。<br/>2.B：我国国家机构实行民主集中制原则。<br/>3.B：提高存款准备金率通常会减少银行可用于放贷的资金。<br/>4.C：有些B是C，可以推出有些C是B。<br/>5.B：强调制度制定之后还必须有效落实。"
+              "type": "links",
+              "items": [
+                {
+                  "text": "→ 军队文职人员公开招考，今起报名！这些事项要注意 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-05/10726347.shtml"
+                },
+                {
+                  "text": "→ 王毅分别会见来华出席澜湄合作第十一次外长会的越南、柬埔寨客人 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-05/10726346.shtml"
+                },
+                {
+                  "text": "→ 奥地利总理施托克尔到访同济大学 共叙两国百年科研合作情谊 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-04/10726321.shtml"
+                }
+              ]
             }
           ]
         },
@@ -260,37 +245,28 @@
       "tasks": [
         {
           "tid": "law_1",
-          "title": "民诉法专题：证明责任",
+          "title": "今日法律资讯",
           "time": "25分钟",
           "hint": "理解证明责任分配及其裁判意义。",
           "body": [
             {
               "type": "p",
-              "html": "<b>核心问题</b><br/>在民事诉讼中，为什么不能简单地要求一方当事人证明所有事实？"
-            },
-            {
-              "type": "ul",
-              "items": [
-                "证明责任是指待证事实真伪不明时，由哪一方承担不利后果。",
-                "一般规则：主张法律关系存在的一方，应当对产生该法律关系的基本事实承担证明责任。",
-                "主张法律关系变更、消灭或者权利受到妨害的一方，应当对相应基本事实承担证明责任。",
-                "特殊情形下，法律和司法解释可能对证明责任作出特别规定。"
-              ]
-            },
-            {
-              "type": "p",
-              "html": "<b>思考题：</b>证明责任分配与举证责任倒置有什么区别？证明标准与证明责任又有什么区别？"
+              "html": "<b>今日最新资讯</b>"
             },
             {
               "type": "links",
               "items": [
                 {
-                  "text": "《中华人民共和国民事诉讼法》· 国家法律法规数据库",
-                  "href": "https://flk.npc.gov.cn/"
+                  "text": "→ 三千余名艺人信息被泄露 起底追星背后的黑色产业链 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-04/10725960.shtml"
                 },
                 {
-                  "text": "最高人民法院 · 司法解释及规范性文件",
-                  "href": "https://www.court.gov.cn/"
+                  "text": "→ 合开钓场收百元“门票”设千元“标鱼” 法院以开设赌场罪对三人判处刑罚 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-04/10725755.shtml"
+                },
+                {
+                  "text": "→ 功能花哨、联动不畅……智能家居规范发展需“标准+法律”双轨并进 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-04/10725752.shtml"
                 }
               ]
             }
@@ -385,45 +361,28 @@
       "tasks": [
         {
           "tid": "fin_1",
-          "title": "财经信息观察",
+          "title": "今日财经速览",
           "time": "20分钟",
           "hint": "从宏观经济、资本市场和产业三个角度理解新闻。",
           "body": [
             {
               "type": "p",
-              "html": "<b>每日关注方向</b>"
-            },
-            {
-              "type": "ul",
-              "items": [
-                "宏观经济：GDP、CPI、PPI、就业、消费和货币政策。",
-                "资本市场：A股、港股、美股主要指数及债券市场。",
-                "产业动态：人工智能、先进制造、新能源、医药和消费。",
-                "国际经济：美联储政策、汇率、国际贸易和大宗商品。"
-              ]
+              "html": "<b>今日最新资讯</b>"
             },
             {
               "type": "links",
               "items": [
                 {
-                  "text": "中国人民银行",
-                  "href": "https://www.pbc.gov.cn/"
+                  "text": "→ 10月中国大宗商品价格指数同比上涨21.0% · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-05/10726348.shtml"
                 },
                 {
-                  "text": "国家统计局",
-                  "href": "https://www.stats.gov.cn/"
+                  "text": "→ 各项筹备工作就绪 一组数据带你提前了解进博会亮点 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-05/10726342.shtml"
                 },
                 {
-                  "text": "上海证券交易所",
-                  "href": "https://www.sse.com.cn/"
-                },
-                {
-                  "text": "深圳证券交易所",
-                  "href": "https://www.szse.cn/"
-                },
-                {
-                  "text": "Reuters · 全球财经新闻",
-                  "href": "https://www.reuters.com/markets/"
+                  "text": "→ 10月中国电商物流指数持续回暖向好 旺季履约保障有力 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-05/10726339.shtml"
                 }
               ]
             }
@@ -569,42 +528,30 @@
       "tasks": [
         {
           "tid": "in_1",
-          "title": "真实招聘渠道",
+          "title": "今日职业环境速览",
           "time": "20分钟",
           "hint": "进入招聘平台筛选实际在招岗位。",
           "body": [
             {
               "type": "p",
-              "html": "优先检索以下岗位关键词：法务实习生、法律实习生、合规实习生、争议解决实习生、涉外法律实习生、企业风控实习生。"
+              "html": "<b>今日最新资讯</b>"
             },
             {
               "type": "links",
               "items": [
                 {
-                  "text": "BOSS直聘",
-                  "href": "https://www.zhipin.com/"
+                  "text": "→ 美国突发直升机坠毁事故 致1死2伤 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-05/10726349.shtml"
                 },
                 {
-                  "text": "智联招聘",
-                  "href": "https://www.zhaopin.com/"
+                  "text": "→ 泰国总理提出“重塑泰国”构想 强调增强经济自主能力 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-05/10726337.shtml"
                 },
                 {
-                  "text": "前程无忧",
-                  "href": "https://www.51job.com/"
-                },
-                {
-                  "text": "国家大学生就业服务平台",
-                  "href": "https://www.ncss.cn/"
-                },
-                {
-                  "text": "国聘平台",
-                  "href": "https://www.iguopin.com/"
+                  "text": "→ 今年前9个月泰国大米对东盟出口增长109% · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-05/10726336.shtml"
                 }
               ]
-            },
-            {
-              "type": "note",
-              "html": "岗位是否在招、工作地点、截止日期和学历要求，以招聘单位当前发布的信息为准。本页面不将招聘平台入口冒充为具体在招岗位。"
             }
           ]
         },
