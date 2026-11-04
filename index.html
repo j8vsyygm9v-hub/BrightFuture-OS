@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -6,16 +7,13 @@
 <meta name="theme-color" content="#0b1020">
 <title>Bright Future | 私人工作台</title>
 <style>
-:root{color-scheme:dark;--bg:#0b1020;--panel:#131c30;--panel2:#19253b;--line:#2a3852;--text:#edf2ff;--muted:#98a9c4;--blue:#a8c9ff;--green:#8de2c1}
+:root{color-scheme:dark;--bg:#0b1020;--panel:#131c30;--panel2:#19253b;--line:#2a3852;--text:#edf2ff;--muted:#98a9c4;--blue:#a8c9ff;--green:#8de2c1;--gold:#e9c58b}
 *{box-sizing:border-box}
 body{margin:0;background:radial-gradient(ellipse at 15% 0%,#1c3152,transparent 42%),var(--bg);color:var(--text);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;line-height:1.7}
-button,input,textarea{font:inherit}
-button,a{touch-action:manipulation}
-a{color:var(--blue);text-decoration:none}
-a:hover{text-decoration:underline}
-button{cursor:pointer}
+button,input,textarea{font:inherit}button,a{touch-action:manipulation}button{cursor:pointer}
+a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
 .shell{max-width:1160px;margin:auto;padding:28px 22px 50px}
-.top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:55px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:42px}
 .brand{font-size:12px;font-weight:800;letter-spacing:3px;color:var(--blue)}
 .pill{border:1px solid var(--line);border-radius:99px;padding:5px 11px;color:var(--muted);font-size:11px}
 .eyebrow{font-size:11px;color:var(--green);letter-spacing:3px;font-weight:700}
@@ -28,28 +26,30 @@ h1{font-size:clamp(35px,6vw,58px);letter-spacing:-2px;line-height:1.2;margin:13p
 .track{height:5px;background:#2a3852;border-radius:9px;overflow:hidden}
 .fill{height:100%;width:0;background:linear-gradient(90deg,#86e1be,#a8c9ff);transition:width .2s}
 .sectionhead{display:flex;justify-content:space-between;align-items:end;gap:10px;margin:38px 0 17px}
-.sectionhead h2{font-size:20px;margin:0}
-.sectionhead p{font-size:12px;color:var(--muted);margin:0}
+.sectionhead h2{font-size:20px;margin:0}.sectionhead p{font-size:12px;color:var(--muted);margin:0}
 .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .card{position:relative;overflow:hidden;min-height:208px;text-align:left;color:var(--text);border:1px solid var(--line);border-radius:20px;padding:22px;background:linear-gradient(145deg,#1a2740,#11192a);transition:transform .2s,border-color .2s}
 .card:hover{transform:translateY(-3px);border-color:#6888b8}
 .card:after{content:"";position:absolute;width:130px;height:130px;right:-65px;top:-65px;border-radius:50%;background:var(--glow);opacity:.09;pointer-events:none}
 .cardtop{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px}
-.symbol{font-size:25px}
-.num{font-size:10px;letter-spacing:1.5px;color:var(--muted)}
-.card h3{font-size:23px;margin:0 0 5px}
-.card p{font-size:12px;color:var(--muted);margin:0}
+.symbol{font-size:25px}.num{font-size:10px;letter-spacing:1.5px;color:var(--muted)}
+.card h3{font-size:23px;margin:0 0 5px}.card p{font-size:12px;color:var(--muted);margin:0}
 .cardbottom{display:flex;justify-content:space-between;align-items:center;margin-top:21px;font-size:12px;color:var(--muted)}
-.count{color:var(--green)}
-.arrow{font-size:20px;color:var(--blue)}
+.count{color:var(--green)}.arrow{font-size:20px;color:var(--blue)}
 .footer{border-top:1px solid var(--line);margin-top:44px;padding-top:18px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:11px;color:var(--muted)}
 .hidden{display:none!important}
 .back{display:inline-block;margin:0 0 27px;font-size:13px}
 .detailtitle{font-size:clamp(32px,5vw,46px);margin:7px 0}
 .subtitle{color:var(--muted);margin:0 0 25px;font-size:14px}
-.tools{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:22px}
+.tools{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:18px}
 .btn{border:1px solid var(--line);background:var(--panel);color:var(--text);padding:8px 13px;border-radius:10px;font-size:12px}
 .btn:hover{border-color:var(--blue)}
+.btn.primary{background:#263c5d;border-color:#5578a9;color:#fff}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.batchbox{padding:17px;border:1px solid var(--line);border-radius:14px;background:var(--panel);margin:20px 0}
+.batchbox label{display:inline-flex;align-items:center;gap:7px;margin:7px 13px 7px 0;font-size:13px;color:var(--muted)}
+.batchbox input{accent-color:var(--green)}
+.status{font-size:12px;color:var(--gold);margin-top:9px;min-height:20px}
 .tasks{display:grid;gap:13px}
 .task{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:19px}
 .taskhead{display:flex;gap:12px;align-items:flex-start}
@@ -57,17 +57,15 @@ h1{font-size:clamp(35px,6vw,58px);letter-spacing:-2px;line-height:1.2;margin:13p
 .task h3{font-size:16px;margin:0}
 .task.done h3{color:var(--muted);text-decoration:line-through}
 .taskbody{margin:10px 0 0 31px;color:#c9d5e9;font-size:13px;overflow-wrap:anywhere}
-.taskbody p{margin:7px 0}
-.taskbody ul{padding-left:20px}
-.taskbody li{margin:5px 0}
+.taskbody p{margin:7px 0}.taskbody ul{padding-left:20px}.taskbody li{margin:5px 0}
 .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:13px}
 .link{border:1px solid #344662;background:#10192b;border-radius:9px;padding:7px 10px;font-size:11px}
-textarea{width:100%;min-height:100px;background:#0d1526;border:1px solid var(--line);border-radius:11px;padding:12px;color:var(--text);resize:vertical}
 .notes{margin-top:25px;padding:19px;border:1px solid var(--line);border-radius:15px;background:var(--panel)}
-.notes h3{font-size:15px;margin:0 0 10px}
-.notes p{font-size:12px;color:var(--muted)}
+.notes h3{font-size:15px;margin:0 0 10px}.notes p{font-size:12px;color:var(--muted)}
+textarea{width:100%;min-height:120px;background:#0d1526;border:1px solid var(--line);border-radius:11px;padding:12px;color:var(--text);resize:vertical}
 .small{font-size:11px;color:var(--muted);margin-top:14px}
-@media(max-width:740px){.shell{padding:21px 15px 35px}.top{margin-bottom:38px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.card{padding:16px;min-height:190px;border-radius:16px}.card h3{font-size:20px}.cardtop{margin-bottom:19px}.sectionhead{align-items:flex-start;flex-direction:column}}
+.tasktime{color:var(--gold);font-size:11px;margin-left:7px}
+@media(max-width:740px){.shell{padding:21px 15px 35px}.top{margin-bottom:30px}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.card{padding:16px;min-height:190px;border-radius:16px}.card h3{font-size:20px}.cardtop{margin-bottom:19px}.sectionhead{align-items:flex-start;flex-direction:column}}
 @media(max-width:390px){.grid{grid-template-columns:1fr}.card{min-height:150px}.cardtop{margin-bottom:13px}}
 </style>
 </head>
@@ -87,11 +85,23 @@ textarea{width:100%;min-height:100px;background:#0d1526;border:1px solid var(--l
   </section>
 
   <section class="progressbox">
-    <div class="progresshead"><span>今日成长进度</span><span id="progressText">0 / 0 项完成</span></div>
+    <div class="progresshead"><span>累计任务完成进度</span><span id="progressText">0 / 0 项完成</span></div>
     <div class="track"><div class="fill" id="progressFill"></div></div>
   </section>
 
-  <div class="sectionhead"><h2>成长主轴</h2><p>点击进入领域，开启今日行动</p></div>
+  <div class="sectionhead"><h2>成长主轴</h2><p>点击进入领域，查看任务并独立更新</p></div>
+
+  <section class="batchbox">
+    <strong>批量更新</strong>
+    <p class="small">勾选需要更新的模块，其他模块不会受到影响。</p>
+    <div id="batchChecks"></div>
+    <div class="tools" style="margin:8px 0 0">
+      <button class="btn primary" id="batchUpdate">更新所选模块</button>
+      <button class="btn" id="selectAll">全选</button>
+      <button class="btn" id="clearAll">取消全选</button>
+    </div>
+    <div class="status" id="batchStatus" aria-live="polite"></div>
+  </section>
 
   <section class="grid" id="grid">
     <button class="card" data-id="ielts" style="--glow:#82c9ff">
@@ -99,10 +109,10 @@ textarea{width:100%;min-height:100px;background:#0d1526;border:1px solid var(--l
       <h3>国际人</h3><p>语言能力 · 全球视野 · 跨文化沟通</p>
       <div class="cardbottom"><span class="count" id="count-ielts">每日精进</span><span class="arrow">↗</span></div>
     </button>
-    <button class="card" data-id="exam" style="--glow:#e9c58b">
+    <button class="card" data-id="gongkao" style="--glow:#e9c58b">
       <div class="cardtop"><span class="symbol">⌘</span><span class="num">02 / GOVERNANCE</span></div>
       <h3>治理者</h3><p>公共事务 · 时政素养 · 逻辑表达</p>
-      <div class="cardbottom"><span class="count" id="count-exam">每日练习</span><span class="arrow">↗</span></div>
+      <div class="cardbottom"><span class="count" id="count-gongkao">每日练习</span><span class="arrow">↗</span></div>
     </button>
     <button class="card" data-id="law" style="--glow:#c1a8ff">
       <div class="cardtop"><span class="symbol">§</span><span class="num">03 / LEGAL MIND</span></div>
@@ -119,10 +129,10 @@ textarea{width:100%;min-height:100px;background:#0d1526;border:1px solid var(--l
       <h3>竞技者</h3><p>体能训练 · 规律作息 · 身心状态</p>
       <div class="cardbottom"><span class="count" id="count-sport">每日运动</span><span class="arrow">↗</span></div>
     </button>
-    <button class="card" data-id="career" style="--glow:#f0d98b">
+    <button class="card" data-id="intern" style="--glow:#f0d98b">
       <div class="cardtop"><span class="symbol">◇</span><span class="num">06 / CAREER</span></div>
       <h3>职业家</h3><p>职业探索 · 实习求职 · 专业竞争力</p>
-      <div class="cardbottom"><span class="count" id="count-career">每日行动</span><span class="arrow">↗</span></div>
+      <div class="cardbottom"><span class="count" id="count-intern">每日行动</span><span class="arrow">↗</span></div>
     </button>
   </section>
   <div class="footer"><span>BRIGHT FUTURE · 持续积累</span><span>个人工作台 · 每天进步一点</span></div>
@@ -134,125 +144,316 @@ textarea{width:100%;min-height:100px;background:#0d1526;border:1px solid var(--l
   <h1 class="detailtitle" id="detailTitle"></h1>
   <p class="subtitle" id="detailSub"></p>
   <div class="tools">
-    <button class="btn" id="reset">重置本模块打卡</button>
-    <button class="btn" id="export">导出打卡备份</button>
+    <button class="btn primary" id="moduleUpdate">更新本模块</button>
+    <button class="btn" id="export">导出个人数据备份</button>
   </div>
+  <div class="status" id="moduleStatus" aria-live="polite"></div>
   <div class="tasks" id="tasks"></div>
   <div class="notes">
-    <h3>今日笔记</h3>
-    <p>记录今天的收获、错题、想法或明天要做的事。</p>
-    <textarea id="note" placeholder="写下今天值得留下的内容……"></textarea>
-    <div class="tools" style="margin:10px 0 0"><button class="btn" id="saveNote">保存笔记</button><span id="noteStatus" class="small"></span></div>
+    <h3>长期笔记</h3>
+    <p>记录收获、错题、想法或下一步计划。笔记不会因日期变化而清空。</p>
+    <textarea id="note" placeholder="写下值得留下的内容……"></textarea>
+    <div class="tools" style="margin:10px 0 0">
+      <button class="btn" id="saveNote">保存笔记</button>
+      <span id="noteStatus" class="small"></span>
+    </div>
   </div>
-  <p class="small">打卡和笔记保存在当前浏览器中。清除浏览器数据或更换设备可能导致记录丢失，请定期导出备份。</p>
+  <p class="small">打卡和笔记保存在当前浏览器中。更换浏览器或清理网站数据前，请先导出备份。</p>
   <div class="footer"><span>BRIGHT FUTURE · 持续积累</span><span id="detailDate"></span></div>
 </section>
 </div>
 
 <script>
 "use strict";
-const DATA = {
- ielts:{name:"国际人",code:"LANGUAGE / 01",sub:"语言能力 · 全球视野 · 跨文化沟通",tasks:[
-  {title:"英语听力训练 · 20 分钟",desc:"选择一段英语材料，先盲听，再对照文本。记录听不懂的词汇、连读和表达。",links:[["BBC Learning English","https://www.bbc.co.uk/learningenglish"],["VOA Learning English","https://learningenglish.voanews.com/"]]},
-  {title:"口语输出 · 20 分钟",desc:"围绕一个话题连续表达 2 分钟，录下自己的回答，再检查发音、语法和停顿。",links:[["IELTS 官方备考资源","https://ielts.org/take-a-test/preparation-resources"]]},
-  {title:"词汇与写作 · 20 分钟",desc:"学习 5—10 个词汇或搭配，用新词造句；每周至少完成一篇英语短文。",links:[["IELTS 官方网站","https://ielts.org/"]]}
- ]},
- exam:{name:"治理者",code:"GOVERNANCE / 02",sub:"公共事务 · 时政素养 · 逻辑表达",tasks:[
-  {title:"公务员题目练习 · 5 道",desc:"完成 5 道行测题，优先练习言语理解、判断推理、资料分析。记录错误原因。这里提供的是练习任务，不是实时题库。",links:[["国家公务员局","https://www.scs.gov.cn/"]]},
-  {title:"权威时政阅读 · 15 分钟",desc:"阅读一则政策或时政新闻，记录事件背景、核心措施、影响及相关政策关键词。",links:[["中国政府网","https://www.gov.cn/"],["新华社","https://www.news.cn/"],["人民日报","https://www.people.com.cn/"]]},
-  {title:"申论表达 · 10 分钟",desc:"用 150—200 字概括一则新闻中的主要问题、原因与对策，训练结构化表达。",links:[["国家政务服务平台","https://gjzwfw.www.gov.cn/"]]}
- ]},
- law:{name:"律政人",code:"LEGAL MIND / 03",sub:"法律研究 · 案例研习 · 实务能力",tasks:[
-  {title:"民事诉讼法专题 · 30 分钟",desc:"围绕一个专题整理法条、构成要件、法律后果和易混淆概念。可选管辖、共同诉讼、第三人撤销之诉、执行异议之诉等。",links:[["国家法律法规数据库","https://flk.npc.gov.cn/"],["中国人大网","http://www.npc.gov.cn/"]]},
-  {title:"真实案例研习 · 20 分钟",desc:"选择一个真实案例，按争议焦点、法律依据、裁判理由、裁判结果四部分做笔记。核对案件信息和裁判日期。",links:[["最高人民法院","https://www.court.gov.cn/"],["人民法院案例库","https://rmfyalk.court.gov.cn/"],["中国裁判文书网","https://wenshu.court.gov.cn/"]]},
-  {title:"法律写作训练 · 10 分钟",desc:"练习撰写一段法律检索结论、一份案件时间线或一份争议焦点清单。优先引用现行法律和权威裁判材料。",links:[["中国法学网","http://www.iolaw.org.cn/"]]}
- ]},
- finance:{name:"财富家",code:"WEALTH / 04",sub:"财经认知 · 资产管理 · 长期主义",tasks:[
-  {title:"全球财经信息 · 15 分钟",desc:"阅读一则宏观经济或市场新闻，记下事件、关键数据、可能的影响路径及不确定因素。交叉核对来源。",links:[["中国人民银行","http://www.pbc.gov.cn/"],["国家统计局","https://www.stats.gov.cn/"],["中国证监会","https://www.csrc.gov.cn/"]]},
-  {title:"个人收支记录 · 5 分钟",desc:"记录今日支出，区分必要支出、弹性消费和冲动消费。每周回顾预算、储蓄与应急储备。"},
-  {title:"投资基础学习 · 15 分钟",desc:"学习一个概念：指数基金、分散投资、费用率、资产配置、风险收益或复利。先理解风险，再考虑收益。",links:[["上海证券交易所投资者教育","https://edu.sse.com.cn/"],["深圳证券交易所投资者教育","https://investor.szse.cn/"]]}
- ]},
- sport:{name:"竞技者",code:"VITALITY / 05",sub:"体能训练 · 规律作息 · 身心状态",tasks:[
-  {title:"热身与活动 · 10 分钟",desc:"快走、原地踏步和动态活动，逐渐提升强度，根据当天身体状态调整。"},
-  {title:"主体运动 · 35—40 分钟",desc:"可选择快走、慢跑、骑行、游泳或力量训练。循序渐进，不必每天高强度训练；身体不适时及时休息。",links:[["世界卫生组织：身体活动","https://www.who.int/news-room/fact-sheets/detail/physical-activity"],["美国疾病控制与预防中心","https://www.cdc.gov/physical-activity-basics/"]]},
-  {title:"放松与记录 · 10 分钟",desc:"进行舒缓拉伸，记录运动类型、时长和身体感受。出现胸痛、晕厥或异常气促时立即停止运动并寻求医疗帮助。"}
- ]},
- career:{name:"职业家",code:"CAREER / 06",sub:"职业探索 · 实习求职 · 专业竞争力",tasks:[
-  {title:"岗位信息检索 · 15 分钟",desc:"筛选法务、律所、央国企、外企或涉外法律岗位，关注工作内容、城市、资格要求和截止日期。核实岗位是否仍在招聘。",links:[["国聘","https://www.iguopin.com/"],["中国公共招聘网","https://job.mohrss.gov.cn/"],["BOSS直聘","https://www.zhipin.com/"],["智联招聘","https://www.zhaopin.com/"],["猎聘","https://www.liepin.com/"]]},
-  {title:"职业技能提升 · 20 分钟",desc:"完成一项可展示的成果：修改简历、练习英文自我介绍、整理法律检索案例或撰写一份简短法律分析。"},
-  {title:"职业资产积累 · 10 分钟",desc:"把今天的成果存档，记录岗位要求与自身能力差距，每周复盘并更新求职计划。"}
- ]}
+
+const WORKER_URL="https://brightfuture-os.j8vsyygm9v.workers.dev";
+const STORAGE_KEY="bright-future-workbench-v3";
+
+const MODULES={
+ ielts:{name:"国际人",code:"LANGUAGE / 01",sub:"语言能力 · 全球视野 · 跨文化沟通"},
+ gongkao:{name:"治理者",code:"GOVERNANCE / 02",sub:"公共事务 · 时政素养 · 逻辑表达"},
+ law:{name:"律政人",code:"LEGAL MIND / 03",sub:"法律研究 · 案例研习 · 实务能力"},
+ finance:{name:"财富家",code:"WEALTH / 04",sub:"财经认知 · 资产管理 · 长期主义"},
+ sport:{name:"竞技者",code:"VITALITY / 05",sub:"体能训练 · 规律作息 · 身心状态"},
+ intern:{name:"职业家",code:"CAREER / 06",sub:"职业探索 · 实习求职 · 专业竞争力"}
 };
+
+const BASE_TASKS={
+ ielts:[
+  {title:"英语听力训练 · 20分钟",hint:"先盲听，再对照文本，记录生词、连读和表达。",body:[{type:"links",items:[{text:"BBC Learning English",href:"https://www.bbc.co.uk/learningenglish"},{text:"VOA Learning English",href:"https://learningenglish.voanews.com/"}]}]},
+  {title:"口语输出 · 20分钟",hint:"围绕一个话题连续表达2分钟，录音后检查发音、语法和停顿。",body:[{type:"links",items:[{text:"IELTS官方备考资源",href:"https://ielts.org/take-a-test/preparation-resources"}]}]},
+  {title:"词汇与写作 · 20分钟",hint:"学习5—10个词汇或搭配，用新词造句，每周完成一篇短文。",body:[{type:"links",items:[{text:"IELTS官方网站",href:"https://ielts.org/"}]}]}
+ ],
+ gongkao:[
+  {title:"公务员题目练习",hint:"完成行测练习，记录错误原因。",body:[{type:"links",items:[{text:"国家公务员局",href:"https://www.scs.gov.cn/"}]}]},
+  {title:"权威时政阅读",hint:"阅读政策或时政新闻，记录背景、核心措施和影响。",body:[{type:"links",items:[{text:"中国政府网",href:"https://www.gov.cn/"},{text:"新华社",href:"https://www.news.cn/"}]}]},
+  {title:"申论表达训练",hint:"用150—200字概括新闻中的问题、原因与对策。",body:[]}
+ ],
+ law:[
+  {title:"民事诉讼法专题",hint:"围绕管辖、共同诉讼、第三人撤销之诉、执行异议之诉等专题整理法条与裁判规则。",body:[{type:"links",items:[{text:"国家法律法规数据库",href:"https://flk.npc.gov.cn/"},{text:"中国人大网",href:"http://www.npc.gov.cn/"}]}]},
+  {title:"真实案例研习",hint:"按争议焦点、法律依据、裁判理由、裁判结果四部分做笔记。",body:[{type:"links",items:[{text:"最高人民法院",href:"https://www.court.gov.cn/"},{text:"人民法院案例库",href:"https://rmfyalk.court.gov.cn/"}]}]},
+  {title:"法律写作训练",hint:"练习撰写法律检索结论、案件时间线或争议焦点清单。",body:[{type:"links",items:[{text:"中国法学网",href:"http://www.iolaw.org.cn/"}]}]}
+ ],
+ finance:[
+  {title:"全球财经信息",hint:"阅读一则宏观经济或市场新闻，记录事件、关键数据和可能影响。",body:[{type:"links",items:[{text:"中国人民银行",href:"http://www.pbc.gov.cn/"},{text:"国家统计局",href:"https://www.stats.gov.cn/"}]}]},
+  {title:"个人收支记录",hint:"记录支出，区分必要支出、弹性消费和冲动消费。",body:[]},
+  {title:"投资基础学习",hint:"学习指数基金、分散投资、费用率、资产配置、风险收益或复利。",body:[{type:"links",items:[{text:"上交所投资者教育",href:"https://edu.sse.com.cn/"},{text:"深交所投资者教育",href:"https://investor.szse.cn/"}]}]}
+ ],
+ sport:[
+  {title:"热身与活动 · 10分钟",hint:"快走、原地踏步和动态活动，逐渐提升强度。",body:[]},
+  {title:"主体运动 · 35—40分钟",hint:"选择快走、慢跑、骑行、游泳或力量训练，根据身体状态调整。",body:[{type:"links",items:[{text:"世界卫生组织：身体活动",href:"https://www.who.int/news-room/fact-sheets/detail/physical-activity"}]}]},
+  {title:"放松与记录 · 10分钟",hint:"舒缓拉伸，记录运动类型、时长和身体感受。",body:[]}
+ ],
+ intern:[
+  {title:"岗位信息检索",hint:"筛选法务、律所、央国企、外企或涉外法律岗位，核实招聘状态和截止日期。",body:[{type:"links",items:[{text:"国聘",href:"https://www.iguopin.com/"},{text:"中国公共招聘网",href:"https://job.mohrss.gov.cn/"},{text:"BOSS直聘",href:"https://www.zhipin.com/"},{text:"智联招聘",href:"https://www.zhaopin.com/"}]}]},
+  {title:"职业技能提升",hint:"完成一项可展示的成果：修改简历、练习英文自我介绍或整理法律检索案例。",body:[]},
+  {title:"职业资产积累",hint:"记录岗位要求与自身能力差距，每周复盘求职计划。",body:[]}
+ ]
+};
+
 const $=id=>document.getElementById(id);
 const pad=n=>String(n).padStart(2,"0");
-function dayKey(){const d=new Date();return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate())}
-function storageKey(){return "bright-future-workbench-v3"}
-function load(){try{return JSON.parse(localStorage.getItem(storageKey())||"{}")}catch(e){return {}}}
-let state=load(),current=null,dailyDate=null;
-function ensureDay(){const today=dayKey();if(state.date!==today){state.date=today;state.done={};state.notes={};save()}if(!state.done)state.done={};if(!state.notes)state.notes={}}
-function save(){try{localStorage.setItem(storageKey(),JSON.stringify(state))}catch(e){}}
-function doneKey(id,index){return id+"-"+index}
-function isDone(id,index){return !!state.done[doneKey(id,index)]}
-function moduleCount(id){return DATA[id].tasks.filter((t,i)=>isDone(id,i)).length}
-function cleanText(value){return String(value||"").replace(/<[^>]*>/g,"").trim()}
-function applyDailyModule(targetId,sourceModule){
- if(!sourceModule||!Array.isArray(sourceModule.tasks)||!sourceModule.tasks.length)return;
- DATA[targetId].tasks=sourceModule.tasks.map(task=>({title:task.title||"今日任务",time:task.time||"",desc:task.hint||"",body:Array.isArray(task.body)?task.body:[],links:[]}));
- if(sourceModule.sub)DATA[targetId].sub=sourceModule.sub;
+const today=()=>{const d=new Date();return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate())};
+
+function loadState(){
+ try{return JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}")}
+ catch(e){return {}}
 }
+let state=loadState();
+if(!state.done)state.done={};
+if(!state.notes)state.notes={};
+if(!state.tasks)state.tasks={};
+
+function saveState(){
+ try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state))}
+ catch(e){alert("本地保存失败，请导出备份并检查浏览器存储空间。")}
+}
+
+const DATA={};
+Object.keys(MODULES).forEach(id=>{
+ DATA[id]={...MODULES[id],tasks:BASE_TASKS[id].map((t,i)=>({...t,tid:id+"_base_"+i}))};
+});
+
+function taskKey(moduleId,task){
+ return moduleId+":"+task.tid;
+}
+function isDone(moduleId,task){
+ return !!state.done[taskKey(moduleId,task)];
+}
+function countDone(moduleId){
+ return DATA[moduleId].tasks.filter(t=>isDone(moduleId,t)).length;
+}
+function updateHome(){
+ let total=0,done=0;
+ Object.keys(DATA).forEach(id=>{
+  const n=DATA[id].tasks.length,d=countDone(id);
+  total+=n;done+=d;
+  const el=$("count-"+id);
+  if(el)el.textContent=d+"/"+n+" 项完成";
+ });
+ $("progressText").textContent=done+" / "+total+" 项完成";
+ $("progressFill").style.width=(total?done/total*100:0)+"%";
+ $("today").textContent="今天："+today()+" · 内容更新日期："+(state.contentDate||"等待读取");
+}
+
+function safeUrl(url){
+ try{const u=new URL(url);return u.protocol==="https:"||u.protocol==="http:"?u.href:null}
+ catch(e){return null}
+}
+function addLink(parent,label,url){
+ const safe=safeUrl(url);if(!safe)return;
+ const a=document.createElement("a");
+ a.className="link";a.href=safe;a.target="_blank";a.rel="noopener noreferrer";
+ a.textContent=label||"查看来源";parent.append(a);
+}
+function renderBlocks(container,blocks){
+ (blocks||[]).forEach(block=>{
+  if(block.type==="p"||block.type==="note"){
+   const p=document.createElement("p");
+   p.textContent=String(block.html||"").replace(/<[^>]*>/g,"");
+   if(block.type==="note"){p.style.color="#e9c58b";p.style.padding="9px 11px";p.style.border="1px solid #5b4b2e";p.style.borderRadius="9px"}
+   container.append(p);
+  }else if(block.type==="links"){
+   const links=document.createElement("div");links.className="links";
+   (block.items||[]).forEach(item=>addLink(links,item.text,item.href));
+   container.append(links);
+  }else if(block.type==="ul"){
+   const ul=document.createElement("ul");
+   (block.items||[]).forEach(value=>{const li=document.createElement("li");li.textContent=value;ul.append(li)});
+   container.append(ul);
+  }else if(block.type==="table"){
+   const table=document.createElement("table");
+   table.style.cssText="width:100%;border-collapse:collapse;margin-top:10px";
+   const rows=[];if(block.head)rows.push(block.head);(block.rows||[]).forEach(r=>rows.push(r));
+   rows.forEach((row,index)=>{
+    const tr=document.createElement("tr");
+    (row||[]).forEach(value=>{
+     const cell=document.createElement(index===0&&block.head?"th":"td");
+     cell.textContent=value;cell.style.cssText="border:1px solid #344662;padding:7px;text-align:left";
+     tr.append(cell);
+    });table.append(tr);
+   });container.append(table);
+  }
+ });
+}
+
+function renderDetail(id){
+ current=id;
+ const m=DATA[id];
+ $("home").classList.add("hidden");
+ $("detail").classList.remove("hidden");
+ $("detailCode").textContent=m.code;
+ $("detailTitle").textContent=m.name;
+ $("detailSub").textContent=m.sub;
+ $("detailDate").textContent="最近内容更新："+(state.contentDate||"暂无");
+ $("moduleStatus").textContent="";
+ $("tasks").replaceChildren();
+
+ m.tasks.forEach(task=>{
+  const article=document.createElement("article");
+  article.className="task"+(isDone(id,task)?" done":"");
+  const head=document.createElement("div");head.className="taskhead";
+  const checkbox=document.createElement("input");
+  checkbox.type="checkbox";checkbox.className="check";
+  checkbox.checked=isDone(id,task);
+  checkbox.setAttribute("aria-label","完成："+task.title);
+  checkbox.addEventListener("change",()=>{
+   state.done[taskKey(id,task)]=checkbox.checked;
+   saveState();article.classList.toggle("done",checkbox.checked);updateHome();
+  });
+  const title=document.createElement("h3");
+  title.textContent=task.title||"学习任务";
+  if(task.time){const time=document.createElement("span");time.className="tasktime";time.textContent=task.time;title.append(time)}
+  head.append(checkbox,title);article.append(head);
+
+  const body=document.createElement("div");body.className="taskbody";
+  if(task.hint){const p=document.createElement("p");p.textContent=task.hint;body.append(p)}
+  if(task.desc){const p=document.createElement("p");p.textContent=task.desc;body.append(p)}
+  if(task.body&&task.body.length)renderBlocks(body,task.body);
+  if(task.links&&task.links.length){
+   const links=document.createElement("div");links.className="links";
+   task.links.forEach(item=>{
+    if(Array.isArray(item))addLink(links,item[0],item[1]);
+    else addLink(links,item.text,item.href);
+   });body.append(links);
+  }
+  article.append(body);$("tasks").append(article);
+ });
+ $("note").value=state.notes[id]||"";
+ $("noteStatus").textContent="";
+ window.scrollTo({top:0,behavior:"smooth"});
+}
+let current=null;
+function goHome(){
+ current=null;$("detail").classList.add("hidden");$("home").classList.remove("hidden");
+ updateHome();window.scrollTo({top:0,behavior:"smooth"});
+}
+document.querySelectorAll("[data-id]").forEach(btn=>btn.addEventListener("click",()=>renderDetail(btn.dataset.id)));
+$("back").addEventListener("click",e=>{e.preventDefault();goHome()});
+
+function makeBatchControls(){
+ const wrap=$("batchChecks");
+ Object.keys(MODULES).forEach(id=>{
+  const label=document.createElement("label");
+  const input=document.createElement("input");
+  input.type="checkbox";input.value=id;input.className="batch-choice";
+  const span=document.createElement("span");span.textContent=MODULES[id].name;
+  label.append(input,span);wrap.append(label);
+ });
+}
+function selectedModules(){
+ return [...document.querySelectorAll(".batch-choice:checked")].map(x=>x.value);
+}
+$("selectAll").addEventListener("click",()=>document.querySelectorAll(".batch-choice").forEach(x=>x.checked=true));
+$("clearAll").addEventListener("click",()=>document.querySelectorAll(".batch-choice").forEach(x=>x.checked=false));
+
+async function requestUpdate(moduleIds,statusElement,button){
+ if(!moduleIds.length){statusElement.textContent="请先选择需要更新的模块。";return}
+ const password=sessionStorage.getItem("bf_update_password")||prompt("请输入你在 Cloudflare 设置的 UPDATE_PASSWORD：");
+ if(!password){statusElement.textContent="已取消更新。";return}
+ sessionStorage.setItem("bf_update_password",password);
+ button.disabled=true;
+ statusElement.textContent="正在提交更新请求……";
+ try{
+  const response=await fetch(WORKER_URL+"/api/update",{
+   method:"POST",
+   headers:{"Content-Type":"application/json","X-Update-Password":password},
+   body:JSON.stringify({modules:moduleIds})
+  });
+  const raw=await response.text();
+  let result={};try{result=JSON.parse(raw)}catch(e){}
+  if(!response.ok){
+   if(response.status===401||response.status===403)sessionStorage.removeItem("bf_update_password");
+   throw new Error(result.error||result.message||("服务器返回 HTTP "+response.status+"："+raw.slice(0,180)));
+  }
+  statusElement.textContent="请求已提交，GitHub Actions 正在处理。请稍后刷新网页查看新内容。";
+ }catch(error){
+  statusElement.textContent="更新请求失败："+error.message+"。请检查 Worker 接口、密码和 GitHub 配置。";
+ }finally{
+  button.disabled=false;
+ }
+}
+$("batchUpdate").addEventListener("click",()=>requestUpdate(selectedModules(),$("batchStatus"),$("batchUpdate")));
+$("moduleUpdate").addEventListener("click",()=>{
+ if(current)requestUpdate([current],$("moduleStatus"),$("moduleUpdate"));
+});
+
+$("saveNote").addEventListener("click",()=>{
+ if(!current)return;
+ state.notes[current]=$("note").value;
+ saveState();$("noteStatus").textContent="已保存";
+});
+$("note").addEventListener("input",()=>{
+ if(!current)return;
+ state.notes[current]=$("note").value;saveState();
+});
+$("export").addEventListener("click",()=>{
+ const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json;charset=utf-8"});
+ const url=URL.createObjectURL(blob);
+ const a=document.createElement("a");a.href=url;a.download="bright-future-backup-"+today()+".json";a.click();
+ setTimeout(()=>URL.revokeObjectURL(url),1000);
+});
+
 async function loadDailyData(){
  try{
   const response=await fetch("./daily.json?v="+Date.now(),{cache:"no-store"});
   if(!response.ok)throw new Error("daily.json HTTP "+response.status);
-  const daily=await response.json(),modules=daily.modules||{};
-  applyDailyModule("ielts",modules.ielts);
-  applyDailyModule("exam",modules.gongkao||modules.exam);
-  applyDailyModule("law",modules.law);
-  applyDailyModule("finance",modules.finance);
-  applyDailyModule("sport",modules.sport);
-  applyDailyModule("career",modules.intern||modules.career);
-  dailyDate=daily.date||null;
- }catch(error){console.warn("每日数据读取失败，暂时显示内置内容：",error)}
+  const daily=await response.json();
+  const modules=daily.modules||{};
+  const mapping={ielts:"ielts",gongkao:"gongkao",law:"law",finance:"finance",sport:"sport",intern:"intern"};
+
+  Object.entries(mapping).forEach(([dataKey,moduleId])=>{
+   const source=modules[dataKey];
+   if(!source||!Array.isArray(source.tasks))return;
+   if(source.sub)DATA[moduleId].sub=source.sub;
+
+   const existing=new Set(DATA[moduleId].tasks.map(t=>t.tid));
+   source.tasks.forEach((task,index)=>{
+    const tid=String(task.tid||moduleId+"_daily_"+index);
+    if(existing.has(tid))return;
+    DATA[moduleId].tasks.push({
+     tid,
+     title:task.title||"新增任务",
+     time:task.time||"",
+     hint:task.hint||"",
+     body:Array.isArray(task.body)?task.body:[],
+     links:[]
+    });
+    existing.add(tid);
+   });
+  });
+  state.contentDate=daily.date||state.contentDate||"";
+  saveState();
+ }catch(error){
+  console.warn("读取 daily.json 失败，暂时显示内置任务：",error);
+ }
 }
-function updateHome(){
- let total=0,done=0;
- Object.keys(DATA).forEach(id=>{total+=DATA[id].tasks.length;done+=moduleCount(id);const el=$("count-"+id);if(el)el.textContent=moduleCount(id)+"/"+DATA[id].tasks.length+" 项完成"});
- $("progressText").textContent="已完成 "+done+" / "+total+" 项";
- $("progressFill").style.width=(total?done/total*100:0)+"%";
- $("today").textContent=(dailyDate?"今日内容更新："+dailyDate+" · ":"")+new Date().toLocaleDateString("zh-CN",{year:"numeric",month:"long",day:"numeric",weekday:"long"});
+
+async function init(){
+ makeBatchControls();
+ await loadDailyData();
+ updateHome();
 }
-function makeLink(label,url){const a=document.createElement("a");a.className="link";a.href=url;a.target="_blank";a.rel="noopener noreferrer";a.textContent=label;return a}
-function renderDailyBody(container,blocks){
- (blocks||[]).forEach(block=>{
-  if(block.type==="p"||block.type==="note"){const p=document.createElement("p");p.textContent=cleanText(block.html);if(block.type==="note"){p.style.color="#e9c58b";p.style.padding="9px 11px";p.style.border="1px solid #5b4b2e";p.style.borderRadius="9px"}container.append(p)}
-  else if(block.type==="links"){const links=document.createElement("div");links.className="links";(block.items||[]).forEach(item=>{if(item.href)links.append(makeLink(item.text||"查看来源",item.href))});container.append(links)}
-  else if(block.type==="ul"){const ul=document.createElement("ul");(block.items||[]).forEach(value=>{const li=document.createElement("li");li.textContent=value;ul.append(li)});container.append(ul)}
-  else if(block.type==="table"){const table=document.createElement("table");table.style.width="100%";table.style.borderCollapse="collapse";table.style.marginTop="10px";const rows=[];if(block.head)rows.push(block.head);(block.rows||[]).forEach(row=>rows.push(row));rows.forEach((row,index)=>{const tr=document.createElement("tr");row.forEach(value=>{const cell=document.createElement(index===0&&block.head?"th":"td");cell.textContent=value;cell.style.border="1px solid #344662";cell.style.padding="7px";cell.style.textAlign="left";tr.append(cell)});table.append(tr)});container.append(table)}
- });
-}
-function renderDetail(id){
- current=id;const m=DATA[id];$("home").classList.add("hidden");$("detail").classList.remove("hidden");
- $("detailCode").textContent=m.code;$("detailTitle").textContent=m.name;$("detailSub").textContent=m.sub;$("detailDate").textContent=(dailyDate?"内容日期："+dailyDate+" · ":"")+dayKey();
- const wrap=$("tasks");wrap.replaceChildren();
- m.tasks.forEach((t,i)=>{
-  const article=document.createElement("article");article.className="task"+(isDone(id,i)?" done":"");
-  const head=document.createElement("div");head.className="taskhead";const checkbox=document.createElement("input");checkbox.type="checkbox";checkbox.className="check";checkbox.checked=isDone(id,i);checkbox.setAttribute("aria-label","完成："+t.title);
-  checkbox.addEventListener("change",()=>{state.done[doneKey(id,i)]=checkbox.checked;save();article.classList.toggle("done",checkbox.checked);updateHome()});
-  const title=document.createElement("h3");title.textContent=t.title+(t.time?" · "+t.time:"");head.append(checkbox,title);article.append(head);
-  const body=document.createElement("div");body.className="taskbody";
-  if(t.body&&t.body.length){renderDailyBody(body,t.body);if(t.desc){const hint=document.createElement("p");hint.style.color="#98a9c4";hint.textContent=t.desc;body.prepend(hint)}}
-  else{const p=document.createElement("p");p.textContent=t.desc||"";body.append(p);if(t.links&&t.links.length){const links=document.createElement("div");links.className="links";t.links.forEach(item=>links.append(makeLink(item[0],item[1])));body.append(links)}}
-  article.append(body);wrap.append(article);
- });
- $("note").value=state.notes[id]||"";$("noteStatus").textContent="";window.scrollTo({top:0,behavior:"smooth"});
-}
-function goHome(){current=null;$("detail").classList.add("hidden");$("home").classList.remove("hidden");updateHome();window.scrollTo({top:0,behavior:"smooth"})}
-document.querySelectorAll("[data-id]").forEach(btn=>btn.addEventListener("click",()=>renderDetail(btn.dataset.id)));
-$("back").addEventListener("click",e=>{e.preventDefault();goHome()});
-$("reset").addEventListener("click",()=>{if(!current)return;if(!confirm("确定重置这个板块今天的全部打卡吗？"))return;DATA[current].tasks.forEach((t,i)=>delete state.done[doneKey(current,i)]);save();renderDetail(current);updateHome()});
-$("saveNote").addEventListener("click",()=>{if(!current)return;state.notes[current]=$("note").value;save();$("noteStatus").textContent="已保存"});
-$("export").addEventListener("click",()=>{const blob=new Blob([JSON.stringify(state,null,2)],{type:"application/json;charset=utf-8"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="bright-future-backup-"+dayKey()+".json";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)});
-async function init(){ensureDay();await loadDailyData();updateHome()}
 init();
 </script>
 </body>
