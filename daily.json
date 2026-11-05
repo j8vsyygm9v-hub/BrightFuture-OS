@@ -1,40 +1,40 @@
 {
   "v": 2,
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "brief": [
     {
       "mid": "ielts",
       "tag": "国际视野",
       "items": [
-        "BBC Learning English - 6 Minute English / Is aircon the answer to a heating world?"
+        "BBC Learning English - 6 Minute English / Could vaccines cure cancer?"
       ]
     },
     {
       "mid": "gongkao",
       "tag": "政治洞察",
       "items": [
-        "军队文职人员公开招考，今起报名！这些事项要注意"
+        "中国科学家打破人类低温纪录 宇宙最冷点“落户”中国空间站"
       ]
     },
     {
       "mid": "law",
       "tag": "法律专业",
       "items": [
-        "三千余名艺人信息被泄露 起底追星背后的黑色产业链"
+        "上架秒拍 货到砍价 起底“到手刀”二手平台交易骗局"
       ]
     },
     {
       "mid": "finance",
       "tag": "财富管理",
       "items": [
-        "10月中国大宗商品价格指数同比上涨21.0%"
+        "（第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全球双循环"
       ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
       "items": [
-        "美国突发直升机坠毁事故 致1死2伤"
+        "特朗普：俄乌冲突已非常接近解决"
       ]
     },
     {
@@ -63,16 +63,16 @@
               "type": "links",
               "items": [
                 {
+                  "text": "→ BBC Learning English - 6 Minute English / Could vaccines cure cancer? · BBC Learning English",
+                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261105"
+                },
+                {
                   "text": "→ BBC Learning English - 6 Minute English / Is aircon the answer to a heating world? · BBC Learning English",
                   "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261029"
                 },
                 {
                   "text": "→ BBC Learning English - 6 Minute English / What should you eat for a better night’s sleep? · BBC Learning English",
                   "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261022"
-                },
-                {
-                  "text": "→ BBC Learning English - 6 Minute English / Why do people buy gold? · BBC Learning English",
-                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261015"
                 }
               ]
             }
@@ -160,16 +160,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 军队文职人员公开招考，今起报名！这些事项要注意 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-05/10726347.shtml"
+                  "text": "→ 中国科学家打破人类低温纪录 宇宙最冷点“落户”中国空间站 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-06/10726970.shtml"
                 },
                 {
-                  "text": "→ 王毅分别会见来华出席澜湄合作第十一次外长会的越南、柬埔寨客人 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-05/10726346.shtml"
+                  "text": "→ 我国成功发射遥感五十一号07-09星 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-06/10726975.shtml"
                 },
                 {
-                  "text": "→ 奥地利总理施托克尔到访同济大学 共叙两国百年科研合作情谊 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-04/10726321.shtml"
+                  "text": "→ 受国际科技股回调等冲击 台股连续6个交易日下跌 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-05/10726958.shtml"
                 }
               ]
             }
@@ -257,16 +257,16 @@
               "type": "links",
               "items": [
                 {
+                  "text": "→ 上架秒拍 货到砍价 起底“到手刀”二手平台交易骗局 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-05/10726564.shtml"
+                },
+                {
                   "text": "→ 三千余名艺人信息被泄露 起底追星背后的黑色产业链 · 中国新闻网·法治",
                   "href": "https://www.chinanews.com.cn/fz/2026/11-04/10725960.shtml"
                 },
                 {
                   "text": "→ 合开钓场收百元“门票”设千元“标鱼” 法院以开设赌场罪对三人判处刑罚 · 中国新闻网·法治",
                   "href": "https://www.chinanews.com.cn/fz/2026/11-04/10725755.shtml"
-                },
-                {
-                  "text": "→ 功能花哨、联动不畅……智能家居规范发展需“标准+法律”双轨并进 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-04/10725752.shtml"
                 }
               ]
             }
@@ -373,16 +373,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 10月中国大宗商品价格指数同比上涨21.0% · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-05/10726348.shtml"
+                  "text": "→ （第九届进博会）从“展示窗口”到“创新加速器”：进博会医疗创新孵化专区强力链接全球双循环 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-05/10726967.shtml"
                 },
                 {
-                  "text": "→ 各项筹备工作就绪 一组数据带你提前了解进博会亮点 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-05/10726342.shtml"
+                  "text": "→ 黑龙江电力外送签约电量首破200亿千瓦时 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-05/10726965.shtml"
                 },
                 {
-                  "text": "→ 10月中国电商物流指数持续回暖向好 旺季履约保障有力 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-05/10726339.shtml"
+                  "text": "→ 第四届广西农民工创业大赛收官 创业成果集中亮相 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-05/10726963.shtml"
                 }
               ]
             }
@@ -540,16 +540,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 美国突发直升机坠毁事故 致1死2伤 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-05/10726349.shtml"
+                  "text": "→ 特朗普：俄乌冲突已非常接近解决 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-06/10726987.shtml"
                 },
                 {
-                  "text": "→ 泰国总理提出“重塑泰国”构想 强调增强经济自主能力 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-05/10726337.shtml"
+                  "text": "→ 德国一政党领导人，被发现在酒店身亡 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-06/10726984.shtml"
                 },
                 {
-                  "text": "→ 今年前9个月泰国大米对东盟出口增长109% · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-05/10726336.shtml"
+                  "text": "→ 欧盟：判断欧洲多起航空威胁事件是否关联为时尚早 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-06/10726982.shtml"
                 }
               ]
             }
