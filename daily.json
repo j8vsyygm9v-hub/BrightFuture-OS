@@ -1,6 +1,6 @@
 {
   "v": 2,
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "brief": [
     {
       "mid": "ielts",
@@ -13,28 +13,28 @@
       "mid": "gongkao",
       "tag": "政治洞察",
       "items": [
-        "首次在城市场景完成放飞试验 看一台“空中电站”如何诞生"
+        "全球最大、发展最快！我国可再生能源技术占据全球主导地位"
       ]
     },
     {
       "mid": "law",
       "tag": "法律专业",
       "items": [
-        "把数据表上传AI平台被辞退引发劳动争议 法院判了"
+        "复刻声音商用，可识别性是侵权认定核心"
       ]
     },
     {
       "mid": "finance",
       "tag": "财富管理",
       "items": [
-        "（第九届进博会）拓展合作、深耕中国 跨国企业进博会上签约忙"
+        "（第九届进博会）多国风物初登进博 借开放中国链接世界"
       ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
       "items": [
-        "德国一小型飞机坠毁 机上2人遇难"
+        "胡塞武装称沙特空袭萨那周边 已致27人死亡"
       ]
     },
     {
@@ -160,16 +160,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 首次在城市场景完成放飞试验 看一台“空中电站”如何诞生 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-07/10727726.shtml"
+                  "text": "→ 全球最大、发展最快！我国可再生能源技术占据全球主导地位 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-07/10728191.shtml"
                 },
                 {
-                  "text": "→ 我国南极活动与环境保护法出台 对国际南极治理意义几何？ · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-06/10727716.shtml"
+                  "text": "→ 千公里仅3.43毫秒！我国新一代通信网技术取得新突破 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-07/10728184.shtml"
                 },
                 {
-                  "text": "→ 刘海星同朝鲜劳动党中央政治局委员、中央书记、国际部部长金成男举行会谈 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-06/10727715.shtml"
+                  "text": "→ 原创性“中国方案”→国家法律制度 检察公益诉讼法明年起施行 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-07/10728166.shtml"
                 }
               ]
             }
@@ -257,16 +257,16 @@
               "type": "links",
               "items": [
                 {
+                  "text": "→ 复刻声音商用，可识别性是侵权认定核心 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-07/10727745.shtml"
+                },
+                {
                   "text": "→ 把数据表上传AI平台被辞退引发劳动争议 法院判了 · 中国新闻网·法治",
                   "href": "https://www.chinanews.com.cn/fz/2026/11-06/10727230.shtml"
                 },
                 {
                   "text": "→ 最高检发布检察机关办理刑事立案监督案件典型案例 · 中国新闻网·法治",
                   "href": "https://www.chinanews.com.cn/fz/2026/11-06/10727074.shtml"
-                },
-                {
-                  "text": "→ 上架秒拍 货到砍价 起底“到手刀”二手平台交易骗局 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-05/10726564.shtml"
                 }
               ]
             }
@@ -373,16 +373,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ （第九届进博会）拓展合作、深耕中国 跨国企业进博会上签约忙 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-06/10727712.shtml"
+                  "text": "→ （第九届进博会）多国风物初登进博 借开放中国链接世界 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-07/10728169.shtml"
                 },
                 {
-                  "text": "→ 世界浙商杭州“开麦”：科创聚力向“新”而行 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-06/10727709.shtml"
+                  "text": "→ （第九届进博会）百年茶缘续新篇 斯里兰卡红茶借进博会“回家” · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-07/10728165.shtml"
                 },
                 {
-                  "text": "→ 台企在江苏无锡开建AI算力高端电子基板材料研发制造总部 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-06/10727708.shtml"
+                  "text": "→ （第九届进博会）华商侨企接入进博“引力场”：从商品贸易到生态共生 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-07/10728124.shtml"
                 }
               ]
             }
@@ -540,16 +540,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 德国一小型飞机坠毁 机上2人遇难 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-07/10727731.shtml"
+                  "text": "→ 胡塞武装称沙特空袭萨那周边 已致27人死亡 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-08/10728199.shtml"
                 },
                 {
-                  "text": "→ 菲律宾妇女团体抗议美国扩大军事存在 反对“硅和平”倡议 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-07/10727730.shtml"
+                  "text": "→ 伊朗解除导弹射程限制 美军组特遣部队防伊“跨境运武” · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-08/10728198.shtml"
                 },
                 {
-                  "text": "→ 特朗普宣布任命斯蒂芬·米勒为白宫幕僚长 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-07/10727732.shtml"
+                  "text": "→ 俄外交部：欧洲多国军演挑动局势升级 在乌部署外国军事力量不可接受 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-08/10728193.shtml"
                 }
               ]
             }
