@@ -1,6 +1,6 @@
 {
   "v": 2,
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "brief": [
     {
       "mid": "ielts",
@@ -13,7 +13,7 @@
       "mid": "gongkao",
       "tag": "政治洞察",
       "items": [
-        "全球最大、发展最快！我国可再生能源技术占据全球主导地位"
+        "我国成功发射卫星互联网低轨29组卫星"
       ]
     },
     {
@@ -27,14 +27,14 @@
       "mid": "finance",
       "tag": "财富管理",
       "items": [
-        "（第九届进博会）多国风物初登进博 借开放中国链接世界"
+        "打蚊子、陪聊天、认小鸟 中国AI消费品海外走俏"
       ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
       "items": [
-        "胡塞武装称沙特空袭萨那周边 已致27人死亡"
+        "日本宫城县近海发生4.5级地震 多地有震感"
       ]
     },
     {
@@ -160,16 +160,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 全球最大、发展最快！我国可再生能源技术占据全球主导地位 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-07/10728191.shtml"
+                  "text": "→ 我国成功发射卫星互联网低轨29组卫星 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-09/10728582.shtml"
                 },
                 {
-                  "text": "→ 千公里仅3.43毫秒！我国新一代通信网技术取得新突破 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-07/10728184.shtml"
+                  "text": "→ 2026中国北欧民间友好对话会在四川宜宾举行 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-08/10728539.shtml"
                 },
                 {
-                  "text": "→ 原创性“中国方案”→国家法律制度 检察公益诉讼法明年起施行 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-07/10728166.shtml"
+                  "text": "→ 中国首款可互联中性原子量子计算机“乾阵”原型机在合肥发布 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-08/10728516.shtml"
                 }
               ]
             }
@@ -373,16 +373,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ （第九届进博会）多国风物初登进博 借开放中国链接世界 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-07/10728169.shtml"
+                  "text": "→ 打蚊子、陪聊天、认小鸟 中国AI消费品海外走俏 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-09/10728587.shtml"
                 },
                 {
-                  "text": "→ （第九届进博会）百年茶缘续新篇 斯里兰卡红茶借进博会“回家” · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-07/10728165.shtml"
+                  "text": "→ 畅通教育科技人才良性循环 为新质生产力蓄势赋能 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-08/10728567.shtml"
                 },
                 {
-                  "text": "→ （第九届进博会）华商侨企接入进博“引力场”：从商品贸易到生态共生 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-07/10728124.shtml"
+                  "text": "→ 专访美中贸易全国委员会会长：美企不希望看到贸易保护主义抬头 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-08/10728551.shtml"
                 }
               ]
             }
@@ -540,16 +540,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 胡塞武装称沙特空袭萨那周边 已致27人死亡 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-08/10728199.shtml"
+                  "text": "→ 日本宫城县近海发生4.5级地震 多地有震感 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-09/10728585.shtml"
                 },
                 {
-                  "text": "→ 伊朗解除导弹射程限制 美军组特遣部队防伊“跨境运武” · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-08/10728198.shtml"
+                  "text": "→ 美国一大学接连发生两起枪击事件 致1死3伤 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-09/10728584.shtml"
                 },
                 {
-                  "text": "→ 俄外交部：欧洲多国军演挑动局势升级 在乌部署外国军事力量不可接受 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-08/10728193.shtml"
+                  "text": "→ 特朗普：美伊谈判若取得进展 “极不可能”再对伊动武 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-09/10728581.shtml"
                 }
               ]
             }
