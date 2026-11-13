@@ -1,40 +1,40 @@
 {
   "v": 2,
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "brief": [
     {
       "mid": "ielts",
       "tag": "国际视野",
       "items": [
-        "BBC Learning English - 6 Minute English / Could vaccines cure cancer?"
+        "BBC Learning English - 6 Minute English / Learning from different generations"
       ]
     },
     {
       "mid": "gongkao",
       "tag": "政治洞察",
       "items": [
-        "陈文清主持召开专题会议强调 深入贯彻落实习近平总书记重要指示精神 纵深推进依法从严查处危害食品安全违法犯罪专项工作"
+        "重庆荣昌营商环境体系观察：数字背后的温度"
       ]
     },
     {
       "mid": "law",
       "tag": "法律专业",
       "items": [
-        "香港名媛蔡天凤碎尸案重大进展：蔡天凤前夫被当庭指认为凶手"
+        "月入过万招司机？检察官揭露“套路运”诈骗连环计"
       ]
     },
     {
       "mid": "finance",
       "tag": "财富管理",
       "items": [
-        "百亿级市场火爆！“超六成访客是老外” 有人当场下单"
+        "双11卖了17764亿元，但最猛的增长不在商品"
       ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
       "items": [
-        "俄罗斯总统普京12日将会见美方谈判代表"
+        "美国纽约楼房倒塌搜救行动结束 遇难人数升至8人"
       ]
     },
     {
@@ -63,16 +63,16 @@
               "type": "links",
               "items": [
                 {
+                  "text": "→ BBC Learning English - 6 Minute English / Learning from different generations · BBC Learning English",
+                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261122"
+                },
+                {
                   "text": "→ BBC Learning English - 6 Minute English / Could vaccines cure cancer? · BBC Learning English",
                   "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261105"
                 },
                 {
                   "text": "→ BBC Learning English - 6 Minute English / Is aircon the answer to a heating world? · BBC Learning English",
                   "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261029"
-                },
-                {
-                  "text": "→ BBC Learning English - 6 Minute English / What should you eat for a better night’s sleep? · BBC Learning English",
-                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261022"
                 }
               ]
             }
@@ -160,16 +160,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 陈文清主持召开专题会议强调 深入贯彻落实习近平总书记重要指示精神 纵深推进依法从严查处危害食品安全违法犯罪专项工作 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-12/10730584.shtml"
+                  "text": "→ 重庆荣昌营商环境体系观察：数字背后的温度 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-13/10731346.shtml"
                 },
                 {
-                  "text": "→ 学习贯彻党的二十届五中全会精神中央宣讲团在中央统战部宣讲 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-12/10730582.shtml"
+                  "text": "→ 无弦琵琶雕塑出圈背后的政协担当 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-13/10731325.shtml"
                 },
                 {
-                  "text": "→ 王毅同美国国务卿鲁比奥通电话 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-11/10730564.shtml"
+                  "text": "→ 国务院安委会办公室对11个市级政府开展安全生产约谈 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-13/10731345.shtml"
                 }
               ]
             }
@@ -257,16 +257,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 香港名媛蔡天凤碎尸案重大进展：蔡天凤前夫被当庭指认为凶手 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-11/10730414.shtml"
+                  "text": "→ 月入过万招司机？检察官揭露“套路运”诈骗连环计 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-12/10731095.shtml"
                 },
                 {
-                  "text": "→ 原创内容被判“AI生成未标识” 用户起诉平台，法院认定→ · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-11/10730318.shtml"
+                  "text": "→ 涉巧克力广告宣扬错误婚恋观等 12起违法广告典型案例公布 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-12/10730924.shtml"
                 },
                 {
-                  "text": "→ “入坑”容易退费难，AI短视频培训套路层出不穷 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-11/10730253.shtml"
+                  "text": "→ 陈卫东：刑诉法修改应法典化 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-12/10730916.shtml"
                 }
               ]
             }
@@ -373,16 +373,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 百亿级市场火爆！“超六成访客是老外” 有人当场下单 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-12/10730587.shtml"
+                  "text": "→ 双11卖了17764亿元，但最猛的增长不在商品 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-13/10731369.shtml"
                 },
                 {
-                  "text": "→ 中国汽车工业协会：10月份新能源重卡渗透率突破50% · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-12/10730586.shtml"
+                  "text": "→ 增长45.4%！10月新型基础设施等领域投资持续升温 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-13/10731364.shtml"
                 },
                 {
-                  "text": "→ 报告显示：中国旅游市场人气旺盛 “流量转化”考题待解 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-11/10730553.shtml"
+                  "text": "→ 聚焦产业创新探索 2026生物制造大赛决赛将在天津举行 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-13/10731331.shtml"
                 }
               ]
             }
@@ -540,16 +540,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 俄罗斯总统普京12日将会见美方谈判代表 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-12/10730585.shtml"
+                  "text": "→ 美国纽约楼房倒塌搜救行动结束 遇难人数升至8人 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-13/10731257.shtml"
                 },
                 {
-                  "text": "→ 美国中央司令部发布声明：严格执行对伊朗海上封锁 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-12/10730583.shtml"
+                  "text": "→ 第22届中美电影节和电视节在洛杉矶举办高峰论坛暨影视推介会 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-13/10731255.shtml"
                 },
                 {
-                  "text": "→ 美军机被曝撤出驻英基地 包括至少10架加油机和3架“鱼鹰”运输机 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-12/10730580.shtml"
+                  "text": "→ 日本接连发生禽流感疫情 20余万只鸡将被扑杀 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-13/10731308.shtml"
                 }
               ]
             }
