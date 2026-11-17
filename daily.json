@@ -1,6 +1,6 @@
 {
   "v": 2,
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "brief": [
     {
       "mid": "ielts",
@@ -13,28 +13,28 @@
       "mid": "gongkao",
       "tag": "政治洞察",
       "items": [
-        "习近平致信祝贺暨南大学建校120周年"
+        "习近平对人民法院工作作出重要指示"
       ]
     },
     {
       "mid": "law",
       "tag": "法律专业",
       "items": [
-        "制造对立、渲染悲情 MCN灰产套路不断翻新，平台如何破局？"
+        "“谷子”预订遇“虚拟发货” 法官提醒：有风险"
       ]
     },
     {
       "mid": "finance",
       "tag": "财富管理",
       "items": [
-        "国家统计局：10月份国民经济运行总体平稳、向新向优"
+        "APEC让数字红利惠及亚太"
       ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
       "items": [
-        "以色列爆料“伊朗近期可能袭击特朗普”，特朗普减少公开活动，贝森特、鲁比奥等高官住进“安全屋”"
+        "法医专家：爱泼斯坦可能在狱中遭谋杀，而非自杀"
       ]
     },
     {
@@ -160,16 +160,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 习近平致信祝贺暨南大学建校120周年 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-16/10732633.shtml"
+                  "text": "→ 习近平对人民法院工作作出重要指示 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-17/10733327.shtml"
                 },
                 {
-                  "text": "→ 【光明论坛】增强党在新兴领域号召力凝聚力影响力 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-16/10732636.shtml"
+                  "text": "→ 国家药监局：北京同仁堂等17家药企27批次药品不符合规定 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-17/10733328.shtml"
                 },
                 {
-                  "text": "→ 河北检察机关依法对王峻涉嫌受贿案提起公诉 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-16/10732617.shtml"
+                  "text": "→ 习近平会见越共中央总书记、国家主席苏林 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-17/10733316.shtml"
                 }
               ]
             }
@@ -257,16 +257,16 @@
               "type": "links",
               "items": [
                 {
+                  "text": "→ “谷子”预订遇“虚拟发货” 法官提醒：有风险 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-17/10733255.shtml"
+                },
+                {
                   "text": "→ 制造对立、渲染悲情 MCN灰产套路不断翻新，平台如何破局？ · 中国新闻网·法治",
                   "href": "https://www.chinanews.com.cn/fz/2026/11-13/10731713.shtml"
                 },
                 {
                   "text": "→ 涉擅自安排购物等 13起旅游市场强制消费问题典型案例公布 · 中国新闻网·法治",
                   "href": "https://www.chinanews.com.cn/fz/2026/11-13/10731706.shtml"
-                },
-                {
-                  "text": "→ 香港名媛蔡天凤碎尸案续审，被告邝港杰披露案发当晚经历 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-13/10731682.shtml"
                 }
               ]
             }
@@ -373,16 +373,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 国家统计局：10月份国民经济运行总体平稳、向新向优 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-16/10732626.shtml"
+                  "text": "→ APEC让数字红利惠及亚太 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-17/10733326.shtml"
                 },
                 {
-                  "text": "→ 10月国民经济运行总体平稳、向新向优 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-16/10732619.shtml"
+                  "text": "→ 商务部等9部门深入推进再生资源回收体系建设 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-17/10733330.shtml"
                 },
                 {
-                  "text": "→ 2022年以来云南累计完成绿电交易超40亿千瓦时 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-16/10732608.shtml"
+                  "text": "→ 连续6年稳步上行 海关总署发布西部陆海新通道对外贸易指数 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-17/10733329.shtml"
                 }
               ]
             }
@@ -540,16 +540,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 以色列爆料“伊朗近期可能袭击特朗普”，特朗普减少公开活动，贝森特、鲁比奥等高官住进“安全屋” · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-16/10732610.shtml"
+                  "text": "→ 法医专家：爱泼斯坦可能在狱中遭谋杀，而非自杀 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-17/10733336.shtml"
                 },
                 {
-                  "text": "→ 刚果（金）埃博拉疫情持续六个月 已致5400余人死亡 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-16/10732536.shtml"
+                  "text": "→ 联合国前副秘书长索尔海姆：别只听传言，亲眼看看中国的绿色蜕变 | 新闻会客厅 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-17/10733325.shtml"
                 },
                 {
-                  "text": "→ 停飞影响持续 美航空运输预计16日全面恢复 空管老旧问题再受关注 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-16/10732550.shtml"
+                  "text": "→ 抵达深圳后，加拿大总理卡尼发文：期待为太平洋两岸开拓新机遇 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-17/10733303.shtml"
                 }
               ]
             }
