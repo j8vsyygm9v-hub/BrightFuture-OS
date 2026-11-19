@@ -1,6 +1,6 @@
 {
   "v": 2,
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "brief": [
     {
       "mid": "ielts",
@@ -13,28 +13,28 @@
       "mid": "gongkao",
       "tag": "政治洞察",
       "items": [
-        "“投资中国 对话山西”中法产业合作圆桌会议在太原举办"
+        "（深圳APEC）习近平：携手搭建亚太共同体的“四梁八柱”"
       ]
     },
     {
       "mid": "law",
       "tag": "法律专业",
       "items": [
-        "汤泉馆直播引流，质疑者被拉黑……律师称涉嫌侵权"
+        "消防隐患要消除 酿成火灾或领刑"
       ]
     },
     {
       "mid": "finance",
       "tag": "财富管理",
       "items": [
-        "三地青年齐聚天津 产学研银企联动赋能京津冀协同发展"
+        "A股午评：三大指数收跌，超4500只个股飘绿"
       ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
       "items": [
-        "数千海地居民声援萨尔瓦多部队打击黑帮"
+        "日本多个民间团体要求政府坚持“无核三原则”"
       ]
     },
     {
@@ -160,16 +160,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ “投资中国 对话山西”中法产业合作圆桌会议在太原举办 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-18/10733927.shtml"
+                  "text": "→ （深圳APEC）习近平：携手搭建亚太共同体的“四梁八柱” · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-19/10734544.shtml"
                 },
                 {
-                  "text": "→ 国台办：台湾岛内议统望统热度不断升高 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-18/10733977.shtml"
+                  "text": "→ （深圳APEC）习近平谈建设亚太共同体 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-19/10734542.shtml"
                 },
                 {
-                  "text": "→ 现场直击：多国领导人抵达深圳（视频+高清大图） · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-18/10733966.shtml"
+                  "text": "→ “来了就是深圳人！”美国网红博主晨跑深圳街头点赞城市魅力 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-19/10734529.shtml"
                 }
               ]
             }
@@ -257,16 +257,16 @@
               "type": "links",
               "items": [
                 {
+                  "text": "→ 消防隐患要消除 酿成火灾或领刑 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-19/10734471.shtml"
+                },
+                {
                   "text": "→ 汤泉馆直播引流，质疑者被拉黑……律师称涉嫌侵权 · 中国新闻网·法治",
                   "href": "https://www.chinanews.com.cn/fz/2026/11-18/10733875.shtml"
                 },
                 {
                   "text": "→ 抢不到的“LABUBU”去了哪里？检察机关办理一起潮玩外挂案 · 中国新闻网·法治",
                   "href": "https://www.chinanews.com.cn/fz/2026/11-17/10733468.shtml"
-                },
-                {
-                  "text": "→ “谷子”预订遇“虚拟发货” 法官提醒：有风险 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-17/10733255.shtml"
                 }
               ]
             }
@@ -373,16 +373,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 三地青年齐聚天津 产学研银企联动赋能京津冀协同发展 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-18/10733915.shtml"
+                  "text": "→ A股午评：三大指数收跌，超4500只个股飘绿 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-19/10734560.shtml"
                 },
                 {
-                  "text": "→ 二手房交易活跃带动市场趋稳 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-18/10733916.shtml"
+                  "text": "→ 辽宁省算力券政策正式落地实施 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-19/10734549.shtml"
                 },
                 {
-                  "text": "→ 汇聚工商力量培育持续动能 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-18/10733913.shtml"
+                  "text": "→ 江苏扬州发布涉企网络服务清单 五类16项举措护航企业“网事” · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-19/10734550.shtml"
                 }
               ]
             }
@@ -540,16 +540,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 数千海地居民声援萨尔瓦多部队打击黑帮 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-18/10733942.shtml"
+                  "text": "→ 日本多个民间团体要求政府坚持“无核三原则” · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-19/10734532.shtml"
                 },
                 {
-                  "text": "→ 美官员称对伊朗格什姆岛实施“自卫”打击 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-18/10733941.shtml"
+                  "text": "→ “晶通丝路”东海水晶文化体验活动在曼谷举行 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-19/10734491.shtml"
                 },
                 {
-                  "text": "→ 多国工商界人士：期待APEC各经济体加强合作 创造繁荣 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-18/10733945.shtml"
+                  "text": "→ 以军在加沙中部发动地面行动 哈马斯谴责以色列违反停火协议 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-19/10734468.shtml"
                 }
               ]
             }
