@@ -1,40 +1,40 @@
 {
   "v": 2,
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "brief": [
     {
       "mid": "ielts",
       "tag": "国际视野",
       "items": [
-        "BBC Learning English - 6 Minute English / Learning from different generations"
+        "BBC Learning English - 6 Minute English / Are microplastics harming us?"
       ]
     },
     {
       "mid": "gongkao",
       "tag": "政治洞察",
       "items": [
-        "（深圳APEC）习近平：携手搭建亚太共同体的“四梁八柱”"
+        "中韩青年江西行，看见了什么？"
       ]
     },
     {
       "mid": "law",
       "tag": "法律专业",
       "items": [
-        "消防隐患要消除 酿成火灾或领刑"
+        "居民误信“宽带免费提速” 家中网线沦为电诈“中转站”"
       ]
     },
     {
       "mid": "finance",
       "tag": "财富管理",
       "items": [
-        "A股午评：三大指数收跌，超4500只个股飘绿"
+        "五部门印发2026版海洋产业投融资指导目录"
       ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
       "items": [
-        "日本多个民间团体要求政府坚持“无核三原则”"
+        "中泰媒体合作交流活动在曼谷举行"
       ]
     },
     {
@@ -63,16 +63,16 @@
               "type": "links",
               "items": [
                 {
+                  "text": "→ BBC Learning English - 6 Minute English / Are microplastics harming us? · BBC Learning English",
+                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261119"
+                },
+                {
                   "text": "→ BBC Learning English - 6 Minute English / Learning from different generations · BBC Learning English",
                   "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261122"
                 },
                 {
                   "text": "→ BBC Learning English - 6 Minute English / Could vaccines cure cancer? · BBC Learning English",
                   "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261105"
-                },
-                {
-                  "text": "→ BBC Learning English - 6 Minute English / Is aircon the answer to a heating world? · BBC Learning English",
-                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261029"
                 }
               ]
             }
@@ -160,16 +160,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ （深圳APEC）习近平：携手搭建亚太共同体的“四梁八柱” · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-19/10734544.shtml"
+                  "text": "→ 中韩青年江西行，看见了什么？ · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-20/10735128.shtml"
                 },
                 {
-                  "text": "→ （深圳APEC）习近平谈建设亚太共同体 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-19/10734542.shtml"
+                  "text": "→ 习近平会见泰国总理阿努廷 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-20/10735126.shtml"
                 },
                 {
-                  "text": "→ “来了就是深圳人！”美国网红博主晨跑深圳街头点赞城市魅力 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-19/10734529.shtml"
+                  "text": "→ 当AI“得知”自己将被关闭，它竟然干了这种事…… · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-20/10735123.shtml"
                 }
               ]
             }
@@ -257,16 +257,16 @@
               "type": "links",
               "items": [
                 {
+                  "text": "→ 居民误信“宽带免费提速” 家中网线沦为电诈“中转站” · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-20/10735112.shtml"
+                },
+                {
+                  "text": "→ 老年保健品会销退货难引关注 将商家“自愿承诺”升格为“法定义务” · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-20/10735060.shtml"
+                },
+                {
                   "text": "→ 消防隐患要消除 酿成火灾或领刑 · 中国新闻网·法治",
                   "href": "https://www.chinanews.com.cn/fz/2026/11-19/10734471.shtml"
-                },
-                {
-                  "text": "→ 汤泉馆直播引流，质疑者被拉黑……律师称涉嫌侵权 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-18/10733875.shtml"
-                },
-                {
-                  "text": "→ 抢不到的“LABUBU”去了哪里？检察机关办理一起潮玩外挂案 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-17/10733468.shtml"
                 }
               ]
             }
@@ -373,16 +373,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ A股午评：三大指数收跌，超4500只个股飘绿 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-19/10734560.shtml"
+                  "text": "→ 五部门印发2026版海洋产业投融资指导目录 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-20/10735127.shtml"
                 },
                 {
-                  "text": "→ 辽宁省算力券政策正式落地实施 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-19/10734549.shtml"
+                  "text": "→ 一卡玩转长三角！来文博会解锁展内展外多元新体验 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-20/10735115.shtml"
                 },
                 {
-                  "text": "→ 江苏扬州发布涉企网络服务清单 五类16项举措护航企业“网事” · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-19/10734550.shtml"
+                  "text": "→ （投资中国）DHL高管：对中国市场长期增长前景保持信心 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-20/10735111.shtml"
                 }
               ]
             }
@@ -540,16 +540,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 日本多个民间团体要求政府坚持“无核三原则” · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-19/10734532.shtml"
+                  "text": "→ 中泰媒体合作交流活动在曼谷举行 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-20/10735044.shtml"
                 },
                 {
-                  "text": "→ “晶通丝路”东海水晶文化体验活动在曼谷举行 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-19/10734491.shtml"
+                  "text": "→ 挪威创新署官员：中国电动汽车制造商正获得竞争优势 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-20/10735042.shtml"
                 },
                 {
-                  "text": "→ 以军在加沙中部发动地面行动 哈马斯谴责以色列违反停火协议 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-19/10734468.shtml"
+                  "text": "→ 巴西2026年农牧业总产值预计达1.46万亿雷亚尔 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-20/10735012.shtml"
                 }
               ]
             }
