@@ -1,40 +1,40 @@
 {
   "v": 2,
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "brief": [
     {
       "mid": "ielts",
       "tag": "国际视野",
       "items": [
-        "BBC Learning English - 6 Minute English / Are microplastics harming us?"
+        "BBC Learning English - 6 Minute English / Is Gen Z getting less intelligent?"
       ]
     },
     {
       "mid": "gongkao",
       "tag": "政治洞察",
       "items": [
-        "贵州长征文化旅游（集团）有限公司董事、副总经理赖基勇被查"
+        "李强主持召开国务院常务会议"
       ]
     },
     {
       "mid": "law",
       "tag": "法律专业",
       "items": [
-        "刑事诉讼法第四次修改：把“管住权力、保障权利”落到实处"
+        "评论：织密反兴奋剂法网，守护体育纯净天空"
       ]
     },
     {
       "mid": "finance",
       "tag": "财富管理",
       "items": [
-        "中国牵头制定！这一国际标准成30余个欧洲国家重要技术参考"
+        "黑龙江哈尔滨：寒地算力蓄势腾飞 东北智算新引擎"
       ]
     },
     {
       "mid": "intern",
       "tag": "职业成长",
       "items": [
-        "也门胡塞武装称袭击沙特两个港口"
+        "美国大幅上修GDP至4.3%，特朗普“炮轰”商务部"
       ]
     },
     {
@@ -63,16 +63,16 @@
               "type": "links",
               "items": [
                 {
+                  "text": "→ BBC Learning English - 6 Minute English / Is Gen Z getting less intelligent? · BBC Learning English",
+                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261126"
+                },
+                {
                   "text": "→ BBC Learning English - 6 Minute English / Are microplastics harming us? · BBC Learning English",
                   "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261119"
                 },
                 {
                   "text": "→ BBC Learning English - 6 Minute English / Learning from different generations · BBC Learning English",
                   "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261122"
-                },
-                {
-                  "text": "→ BBC Learning English - 6 Minute English / Could vaccines cure cancer? · BBC Learning English",
-                  "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english_2026/ep-261105"
                 }
               ]
             }
@@ -160,16 +160,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 贵州长征文化旅游（集团）有限公司董事、副总经理赖基勇被查 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-26/10737985.shtml"
+                  "text": "→ 李强主持召开国务院常务会议 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-27/10738652.shtml"
                 },
                 {
-                  "text": "→ 山东省聊城市政府党组成员、副市长孙荣军被查 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-26/10737977.shtml"
+                  "text": "→ 专访前联合国官员：中国能源转型经验可为发展中国家提供借鉴，南南合作潜力巨大｜新闻会客厅 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-27/10738608.shtml"
                 },
                 {
-                  "text": "→ “三北”工程将按照14个重点分区 推行差异化治理 · 中国新闻网·时政",
-                  "href": "https://www.chinanews.com.cn/gn/2026/11-26/10737975.shtml"
+                  "text": "→ 世界首台380吨级高速动平衡试验系统完成交付 · 中国新闻网·时政",
+                  "href": "https://www.chinanews.com.cn/gn/2026/11-27/10738639.shtml"
                 }
               ]
             }
@@ -257,16 +257,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 刑事诉讼法第四次修改：把“管住权力、保障权利”落到实处 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-26/10737949.shtml"
+                  "text": "→ 评论：织密反兴奋剂法网，守护体育纯净天空 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-27/10738596.shtml"
                 },
                 {
-                  "text": "→ 信贷诈骗犯罪的区分逻辑与裁判校准 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-25/10737624.shtml"
+                  "text": "→ 微信聊天截图能当证据吗 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-27/10738494.shtml"
                 },
                 {
-                  "text": "→ 破解电视“套娃”乱象 规章筑牢收视权益防线 · 中国新闻网·法治",
-                  "href": "https://www.chinanews.com.cn/fz/2026/11-25/10737611.shtml"
+                  "text": "→ 孕期员工被移出工作群、注销门禁账号 法院：系变相违法辞退 · 中国新闻网·法治",
+                  "href": "https://www.chinanews.com.cn/fz/2026/11-26/10738196.shtml"
                 }
               ]
             }
@@ -373,16 +373,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 中国牵头制定！这一国际标准成30余个欧洲国家重要技术参考 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-26/10738006.shtml"
+                  "text": "→ 黑龙江哈尔滨：寒地算力蓄势腾飞 东北智算新引擎 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-27/10738635.shtml"
                 },
                 {
-                  "text": "→ 中国提出到2030年建成覆盖完善、性能领先的新一代通信网 · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-26/10738003.shtml"
+                  "text": "→ 陕西谋划“十五五”县域发展 2030年培育30个县域特色产业集群 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-27/10738633.shtml"
                 },
                 {
-                  "text": "→ 个人养老金四周年交出怎样的成绩单？还有哪些难题需破解？ · 中国新闻网·财经",
-                  "href": "https://www.chinanews.com.cn/cj/2026/11-26/10738004.shtml"
+                  "text": "→ A股午评：大科技“奇迹日”，超4600只个股上涨 · 中国新闻网·财经",
+                  "href": "https://www.chinanews.com.cn/cj/2026/11-27/10738642.shtml"
                 }
               ]
             }
@@ -540,16 +540,16 @@
               "type": "links",
               "items": [
                 {
-                  "text": "→ 也门胡塞武装称袭击沙特两个港口 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-26/10737995.shtml"
+                  "text": "→ 美国大幅上修GDP至4.3%，特朗普“炮轰”商务部 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-27/10738625.shtml"
                 },
                 {
-                  "text": "→ 阿富汗警方称击毙6名武装分子 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-26/10737988.shtml"
+                  "text": "→ 伊朗否认袭击科威特致两意大利人死亡 提议三国联合调查 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-27/10738565.shtml"
                 },
                 {
-                  "text": "→ 巴西决定驻阿根廷大使不再返任 · 中国新闻网·国际",
-                  "href": "https://www.chinanews.com.cn/gj/2026/11-26/10737984.shtml"
+                  "text": "→ 中俄历史学者共商二战史联合研究 · 中国新闻网·国际",
+                  "href": "https://www.chinanews.com.cn/gj/2026/11-27/10738563.shtml"
                 }
               ]
             }
